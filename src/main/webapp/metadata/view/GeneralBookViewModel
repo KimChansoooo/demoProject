@@ -1,0 +1,473 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "viewsgeneralbook",
+        "designer|userClassName": "GeneralBookViewModel"
+    },
+    "name": "MyPanel4ViewModel",
+    "designerId": "998a20ac-6d27-4f89-80d3-d3b1ba7a1f07",
+    "cn": [
+        {
+            "type": "arraystore",
+            "reference": {
+                "name": "stores",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "data": [
+                    "[",
+                    "    {",
+                    "        \"a\": 1,",
+                    "        \"b\": \"매출\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": 2,",
+                    "        \"b\": \"매출환입\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": 3,",
+                    "        \"b\": \"매입\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": 4,",
+                    "        \"b\": \"매입환출\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": 5,",
+                    "        \"b\": \"고정자산\"",
+                    "    }",
+                    "]"
+                ],
+                "name": "gubun"
+            },
+            "name": "MyArrayStore",
+            "designerId": "809945b0-5e08-4157-9130-052126de5fd6",
+            "cn": [
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "a"
+                    },
+                    "name": "MyField",
+                    "designerId": "8bf78c3f-b292-4e70-87d1-8ea4064b61bb"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "b"
+                    },
+                    "name": "MyField1",
+                    "designerId": "cc0225be-eefc-46fe-8b68-e2462514102f"
+                }
+            ]
+        },
+        {
+            "type": "arraystore",
+            "reference": {
+                "name": "stores",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "data": [
+                    "[",
+                    "    {",
+                    "        \"a\": 1,",
+                    "        \"b\": \"예금\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": 2,",
+                    "        \"b\": \"현금\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": 3,",
+                    "        \"b\": \"외상\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": 4,",
+                    "        \"b\": \"어음\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": 5,",
+                    "        \"b\": \"카드\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": 6,",
+                    "        \"b\": \"혼합\"",
+                    "    }",
+                    "]"
+                ],
+                "name": "paygubun"
+            },
+            "name": "MyArrayStore1",
+            "designerId": "81c83efa-eac2-4dcb-87ab-9cedb29a198a",
+            "cn": [
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "a"
+                    },
+                    "name": "MyField",
+                    "designerId": "c3d554a9-2d7d-4fed-9532-32b1f43b1915"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "b"
+                    },
+                    "name": "MyField1",
+                    "designerId": "4b14e17d-954f-4e5d-b5c9-c65cc9552f5f"
+                }
+            ]
+        },
+        {
+            "type": "Ext.data.Store",
+            "reference": {
+                "name": "stores",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "data": [
+                    "[",
+                    "    {",
+                    "        \"a\": \"5/7/2016\",",
+                    "        \"b\": \"매출\",",
+                    "        \"c\": \"(주)서울사\",",
+                    "        \"d\": \"과세\",",
+                    "        \"e\": \"상품1외2건\",",
+                    "        \"f\": \"2,000,000\",",
+                    "        \"g\": \"200,000\",",
+                    "        \"h\": \"2,200,000\",",
+                    "        \"i\": \"신한은행\",",
+                    "        \"j\": \"세금계산서\",",
+                    "        \"k\": \"○\",",
+                    "        \"l\": \"S00001\",",
+                    "        \"z\":false",
+                    "    },",
+                    "    {",
+                    "        \"a\": \"5/2/2016\",",
+                    "        \"b\": \"매입\",",
+                    "        \"c\": \"(주)아이퀘스트\",",
+                    "        \"d\": \"과세\",",
+                    "        \"e\": \"e얼마에요외1건\",",
+                    "        \"f\": \"1,000,000\",",
+                    "        \"g\": \"100,000\",",
+                    "        \"h\": \"1,100,000\",",
+                    "        \"i\": \"우리은행\",",
+                    "        \"j\": \"신용카드\",",
+                    "        \"k\": \"○\",",
+                    "        \"l\": \"S00002\",",
+                    "        \"z\":false",
+                    "    },",
+                    "    {",
+                    "        \"a\": \"5/1/2016\",",
+                    "        \"b\": \"매출\",",
+                    "        \"c\": \"(주)성우상사\",",
+                    "        \"d\": \"과세\",",
+                    "        \"e\": \"상품1외2건\",",
+                    "        \"f\": \"1,500,000\",",
+                    "        \"g\": \"150,000\",",
+                    "        \"h\": \"1,650,000\",",
+                    "        \"i\": \"우체국\",",
+                    "        \"j\": \"세금계산서\",",
+                    "        \"k\": \"\",",
+                    "        \"l\": \"S00003\",",
+                    "        \"z\":false",
+                    "    },",
+                    "    {",
+                    "        \"a\": \"5/2/2016\",",
+                    "        \"b\": \"매입\",",
+                    "        \"c\": \"(주)아이퀘스트\",",
+                    "        \"d\": \"과세\",",
+                    "        \"e\": \"e얼마에요외1건\",",
+                    "        \"f\": \"1,000,000\",",
+                    "        \"g\": \"100,000\",",
+                    "        \"h\": \"1,100,000\",",
+                    "        \"i\": \"우리은행\",",
+                    "        \"j\": \"신용카드\",",
+                    "        \"k\": \"\",",
+                    "        \"l\": \"S00004\",",
+                    "        \"z\":false",
+                    "    },",
+                    "    {",
+                    "        \"a\": \"5/1/2016\",",
+                    "        \"b\": \"매출\",",
+                    "        \"c\": \"(주)나나상사\",",
+                    "        \"d\": \"과세\",",
+                    "        \"e\": \"상품1외2건\",",
+                    "        \"f\": \"1,500,000\",",
+                    "        \"g\": \"150,000\",",
+                    "        \"h\": \"1,650,000\",",
+                    "        \"i\": \"외상장부\",",
+                    "        \"j\": \"세금계산서\",",
+                    "        \"k\": \"○\",",
+                    "        \"l\": \"S00005\",",
+                    "        \"z\":false",
+                    "    },",
+                    "    {",
+                    "        \"a\": \"5/2/2016\",",
+                    "        \"b\": \"매입\",",
+                    "        \"c\": \"(주)아이퀘스트\",",
+                    "        \"d\": \"과세\",",
+                    "        \"e\": \"e얼마에요외1건\",",
+                    "        \"f\": \"1,000,000\",",
+                    "        \"g\": \"100,000\",",
+                    "        \"h\": \"1,100,000\",",
+                    "        \"i\": \"신한은행\",",
+                    "        \"j\": \"신용카드\",",
+                    "        \"k\": \"\",",
+                    "        \"l\": \"S00006\",",
+                    "        \"z\":false",
+                    "    },",
+                    "    {",
+                    "        \"a\": \"5/1/2016\",",
+                    "        \"b\": \"매출\",",
+                    "        \"c\": \"(주)나나상사\",",
+                    "        \"d\": \"과세\",",
+                    "        \"e\": \"상품1외2건\",",
+                    "        \"f\": \"1,500,000\",",
+                    "        \"g\": \"150,000\",",
+                    "        \"h\": \"1,650,000\",",
+                    "        \"i\": \"외상장부\",",
+                    "        \"j\": \"세금계산서\",",
+                    "        \"k\": \"\",",
+                    "        \"l\": \"S00007\",",
+                    "        \"z\":false",
+                    "    },",
+                    "    {",
+                    "        \"a\": \"5/1/2016\",",
+                    "        \"b\": \"매출\",",
+                    "        \"c\": \"(주)나나상사\",",
+                    "        \"d\": \"과세\",",
+                    "        \"e\": \"나나상사거래건\",",
+                    "        \"f\": \"1,500,000\",",
+                    "        \"g\": \"150,000\",",
+                    "        \"h\": \"1,650,000\",",
+                    "        \"i\": \"신한은행\",",
+                    "        \"j\": \"세금계산서\",",
+                    "        \"k\": \"○\",",
+                    "        \"l\": \"S00008\",",
+                    "        \"z\":false",
+                    "    },",
+                    "    {",
+                    "        \"a\": \"5/2/2016\",",
+                    "        \"b\": \"매입\",",
+                    "        \"c\": \"(주)아이퀘스트\",",
+                    "        \"d\": \"과세\",",
+                    "        \"e\": \"4월거래\",",
+                    "        \"f\": \"1,000,000\",",
+                    "        \"g\": \"100,000\",",
+                    "        \"h\": \"1,100,000\",",
+                    "        \"i\": \"신한은행\",",
+                    "        \"j\": \"신용카드\",",
+                    "        \"k\": \"○\",",
+                    "        \"l\": \"S00010\",",
+                    "        \"z\":false",
+                    "    }",
+                    "]"
+                ],
+                "name": "list"
+            },
+            "name": "MyStore3",
+            "designerId": "3ca5a879-441a-4cf0-92b5-1254c8ba53cc",
+            "cn": [
+                {
+                    "type": "Ext.data.field.Date",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "a"
+                    },
+                    "name": "MyDate",
+                    "designerId": "5c9a6fad-950e-4fd3-937e-6d849d4018c2"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "b"
+                    },
+                    "name": "MyField16",
+                    "designerId": "42b8980e-0650-4746-9a46-09912d766925"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "c"
+                    },
+                    "name": "MyField17",
+                    "designerId": "6cb9d2ca-b3ce-4480-85a6-8c8b5264fb41"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "d"
+                    },
+                    "name": "MyField18",
+                    "designerId": "40276c47-86ab-4286-b5f2-5566ed879805"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "e"
+                    },
+                    "name": "MyField19",
+                    "designerId": "4f5ee9d1-fc4a-4d7e-bfe7-0fd71688c4bf"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "f"
+                    },
+                    "name": "MyField20",
+                    "designerId": "e5e829a2-d128-4562-b03e-f23cb95ff411"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "g"
+                    },
+                    "name": "MyField21",
+                    "designerId": "7546f7a0-134e-4a5f-9b3a-fbb0d2699324"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "h"
+                    },
+                    "name": "MyField22",
+                    "designerId": "0da1e767-ac5c-4efc-95e5-56626cdfa013"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "i"
+                    },
+                    "name": "MyField23",
+                    "designerId": "325d60b1-da27-4c11-bdeb-90557e83a09d"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "j"
+                    },
+                    "name": "MyField15",
+                    "designerId": "f0bed9fa-090c-4159-b44f-8bd10e320971"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "k"
+                    },
+                    "name": "MyField24",
+                    "designerId": "dbadcdcb-fb4f-4f3f-a242-e03e627fd0c7"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "l"
+                    },
+                    "name": "MyField25",
+                    "designerId": "2a45ee60-6daf-4633-a82f-48e4f69327cf"
+                },
+                {
+                    "type": "Ext.data.field.Boolean",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "z"
+                    },
+                    "name": "MyBoolean",
+                    "designerId": "8a66cccc-d246-4519-a9c9-2ae5dc3b70dd"
+                }
+            ]
+        }
+    ]
+}

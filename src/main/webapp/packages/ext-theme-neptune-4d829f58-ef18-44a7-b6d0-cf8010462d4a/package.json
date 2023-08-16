@@ -1,0 +1,22 @@
+{
+    "name": "ext-theme-neptune-4d829f58-ef18-44a7-b6d0-cf8010462d4a",
+    "type": "theme",
+    "creator": "Architect",
+    "summary": "Architect created theme. Edit through Architect. Manual edits here will likely be discarded.",
+    "detailedDescription": "Architect created theme. Edit through Architect. Manual edits here will likely be discarded.",
+    "version": "1.0.0",
+    "compatVersion": "1.0.0",
+    "format": "1",
+    "slicer": {
+        "js": [
+            {
+                "path": "${package.dir}/sass/example/custom.js",
+                "isWidgetManifest": true
+            }
+        ]
+    },
+    "output": "${package.dir}/build",
+    "local": true,
+    "requires": [],
+    "extend": "ext-theme-neptune"
+}

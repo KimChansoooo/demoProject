@@ -1,0 +1,441 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mypanel22",
+        "designer|userClassName": "MyPanel22",
+        "height": null,
+        "title": "My Panel",
+        "width": null
+    },
+    "name": "MyPanel22",
+    "designerId": "ad2ea5c6-bd5c-4390-b916-50111543d520",
+    "viewControllerInstanceId": "a1744a15-b889-4487-b89c-708f3661349a",
+    "viewModelInstanceId": "4c6da3e7-2ab6-4098-b74f-cb0496865243",
+    "cn": [
+        {
+            "type": "Ext.form.field.Checkbox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "boxLabel": "Box Label",
+                "fieldLabel": "Label"
+            },
+            "name": "MyCheckbox",
+            "designerId": "4fe27cd1-1646-481b-bf8a-8440a0dc6c9e"
+        },
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MyComboBox1",
+            "designerId": "98187afb-99ce-4e8a-bfa1-dc2e98f04227"
+        },
+        {
+            "type": "Ext.form.field.Date",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MyDateField2",
+            "designerId": "be6d796c-dfd1-4c34-9a9a-0436114b50d8"
+        },
+        {
+            "type": "Ext.form.field.File",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MyFileUpload",
+            "designerId": "80940243-2d47-4562-8266-6ab316c26389"
+        },
+        {
+            "type": "Ext.form.field.HtmlEditor",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label",
+                "height": 150
+            },
+            "name": "MyHtmlEditor",
+            "designerId": "986a49b4-c509-408c-af93-4effb77eb1b4"
+        },
+        {
+            "type": "Ext.slider.Multi",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label",
+                "values": [
+                    "[10,40]"
+                ],
+                "width": 400
+            },
+            "name": "MyMultiSlider",
+            "designerId": "f1be6840-5f28-42de-bc5c-7210946db17e"
+        },
+        {
+            "type": "Ext.form.field.Number",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MyNumberField",
+            "designerId": "be9dc2da-24bd-4315-95bc-ed5996f85670"
+        },
+        {
+            "type": "Ext.form.field.Radio",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "boxLabel": "Box Label",
+                "fieldLabel": "Label"
+            },
+            "name": "MyRadio2",
+            "designerId": "9fc17b66-eb80-4950-90b3-4be3349d36be"
+        },
+        {
+            "type": "Ext.slider.Single",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label",
+                "value": 40,
+                "width": 400
+            },
+            "name": "MySlider",
+            "designerId": "e63785d2-27ac-441d-bd1f-493437e9f567"
+        },
+        {
+            "type": "Ext.slider.Widget",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "MySliderWidget",
+            "designerId": "6286dbd6-f6db-4adf-88eb-6ad9d8e0107c"
+        },
+        {
+            "type": "Ext.form.field.Spinner",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MySpinnerField",
+            "designerId": "255cb4c3-276b-4453-bbca-5456cc8edf5b"
+        },
+        {
+            "type": "Ext.form.field.Tag",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MyTagField",
+            "designerId": "fa989676-15bc-4226-b7c3-9acf58786942"
+        },
+        {
+            "type": "Ext.form.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MyTextArea",
+            "designerId": "203ff56f-7fbf-4838-90c2-ce9aa95d753b"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MyTextField6",
+            "designerId": "0809c795-d771-4345-9858-fef361177b00"
+        },
+        {
+            "type": "Ext.form.field.Time",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MyTimeField",
+            "designerId": "82f70c64-db51-4891-8644-f8ba3e0bf299"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label"
+            },
+            "name": "MyTriggerField",
+            "designerId": "26d051d4-0366-47b2-aafa-f1e9ba786fd4",
+            "isBuiltIn": true,
+            "iconCls": "icon-trigger-field",
+            "autoName": "TriggerField",
+            "cn": [
+                {
+                    "type": "Ext.form.trigger.Trigger",
+                    "reference": {
+                        "name": "triggers",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "mytrigger"
+                    },
+                    "name": "MyTrigger3",
+                    "designerId": "0644e1b1-8463-4177-9f72-47520fb3ba1a"
+                }
+            ]
+        },
+        {
+            "type": "Ext.menu.ColorPicker",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "floating": false
+            },
+            "name": "MyColorMenu",
+            "designerId": "2d1c2315-6406-4b7b-98b3-42502083697c"
+        },
+        {
+            "type": "Ext.menu.DatePicker",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "floating": false
+            },
+            "name": "MyDateMenu",
+            "designerId": "2a00f606-e711-4da2-850c-9f83111107f7"
+        },
+        {
+            "type": "Ext.menu.Menu",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "floating": false,
+                "width": 120
+            },
+            "name": "MyMenu",
+            "designerId": "a19bff74-afe5-4f7e-ac9e-7f4af0f2ed39",
+            "cn": [
+                {
+                    "type": "Ext.menu.Item",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Menu Item"
+                    },
+                    "name": "MyMenuItem",
+                    "designerId": "efe06cb4-64b4-4207-9b70-e8b62fbdae59"
+                },
+                {
+                    "type": "Ext.menu.Item",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Menu Item"
+                    },
+                    "name": "MyMenuItem1",
+                    "designerId": "f4ec5791-2015-4fc2-ae80-f80f224f0cc0"
+                },
+                {
+                    "type": "Ext.menu.Item",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Menu Item"
+                    },
+                    "name": "MyMenuItem2",
+                    "designerId": "21919623-9185-4b72-b75e-0bc5c337cc58"
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "MyButton"
+            },
+            "name": "MyButton29",
+            "designerId": "615997da-83eb-40ae-88c4-2c921a561acc"
+        },
+        {
+            "type": "Ext.ProgressBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "value": 0.4
+            },
+            "name": "MyProgressBar",
+            "designerId": "f1183ceb-b855-4ef4-b0f8-be92f5906039"
+        },
+        {
+            "type": "Ext.ProgressBarWidget",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "MyProgressBarWidget",
+            "designerId": "5b097361-a66f-4fd7-b981-cb848bee2851"
+        },
+        {
+            "type": "Ext.resizer.Splitter",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "MySplitter",
+            "designerId": "ef17b7e9-9db9-48bd-9e9f-f2513fa53935"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "MyTool",
+            "designerId": "0e82eff3-3d82-44a5-b24a-362ee394882b"
+        },
+        {
+            "type": "Ext.toolbar.Breadcrumb",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch"
+            },
+            "name": "MyBreadcrumb",
+            "designerId": "6330ecea-c83e-4319-a8d3-a964396ab925"
+        },
+        {
+            "type": "Ext.toolbar.Paging",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "displayInfo": true,
+                "dock": "bottom",
+                "width": 360
+            },
+            "name": "MyPagingToolbar1",
+            "designerId": "25906572-2409-4561-8d6c-e9c4210a1f5e"
+        },
+        {
+            "type": "Ext.toolbar.Spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "MySpacer2",
+            "designerId": "49a81dce-0e98-466b-87d5-6ed2eca5acc8"
+        },
+        {
+            "type": "Ext.toolbar.Toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top"
+            },
+            "name": "MyToolbar6",
+            "designerId": "ee44fc64-59b9-4fae-b687-013d71e2e148"
+        }
+    ]
+}

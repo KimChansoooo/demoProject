@@ -1,0 +1,54 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyPadding": 5,
+        "designer|userAlias": "mypanel15",
+        "designer|userClassName": "MyPanel15",
+        "height": 250,
+        "title": "My Panel",
+        "width": 400
+    },
+    "name": "MyPanel15",
+    "designerId": "270aa1ea-a4fc-4794-b253-a99b28270315",
+    "viewControllerInstanceId": "12220713-5c7f-4f99-a5bf-c3110538862c",
+    "viewModelInstanceId": "48f7ace7-b4fb-435e-b491-431a00418915",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyBorder": false,
+                "border": true,
+                "height": 200,
+                "style": null,
+                "title": "My Panel"
+            },
+            "name": "MyPanel16",
+            "designerId": "cc0eba0a-0a39-4def-8d08-48f1322d64d0",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyButton"
+                    },
+                    "name": "MyButton25",
+                    "designerId": "ace46768-ad47-4960-bba1-a3085ecf5ef8"
+                }
+            ]
+        }
+    ]
+}

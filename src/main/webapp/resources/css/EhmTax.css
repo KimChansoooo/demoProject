@@ -1,0 +1,70 @@
+/*******************/
+/* 매출세금계산서 CSS */
+/*******************/
+.salesborder-all
+{
+    border: 1px solid #e7716d;
+}
+
+.sales .border-all
+{
+    border: 1px solid #e7716d;
+}
+
+.sales .border-bold-r
+{
+    border-right: 2px solid #e7716d;
+}
+
+.sales .border-bold-l
+{
+    border-left: 2px solid #e7716d;
+}
+
+.sales .border-bold-b
+{
+    border-bottom: 2px solid #e7716d;
+}
+
+.sales .border-bold-t
+{
+    border-top: 2px solid #e7716d;
+}
+
+
+/*******************/
+/* 매입세금계산서 CSS */
+/*******************/
+
+.purchaseborder-all
+{
+    border: 1px solid #b7b8e5;
+}
+
+.purchase .border-all
+{
+    border: 1px solid #4f60a8;
+}
+
+.purchase .border-bold-r
+{
+    border-right: 2px solid #4f60a8;
+}
+
+.purchase .border-bold-l
+{
+    border-left: 2px solid #4f60a8;
+}
+
+.purchase .border-bold-b
+{
+    border-bottom: 2px solid #4f60a8;
+}
+
+.purchase .border-bold-t
+{
+    border-top: 2px solid #4f60a8;
+}
+
+
+

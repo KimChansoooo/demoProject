@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "commonpopupsampletest",
+        "designer|userClassName": "MyPanel2ViewController"
+    },
+    "name": "MyPanel2ViewController",
+    "designerId": "ef8da412-d977-4584-a9a0-03eb9fe42767"
+}

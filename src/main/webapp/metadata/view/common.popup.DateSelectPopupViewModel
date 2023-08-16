@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "common_popup_dateselect",
+        "designer|userClassName": "common.popup.DateSelectPopupViewModel"
+    },
+    "name": "MyWindowViewModel",
+    "designerId": "2be2e3bc-c4ee-452e-8089-18623d16fa2e"
+}

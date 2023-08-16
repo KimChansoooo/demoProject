@@ -1,0 +1,288 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyPadding": null,
+        "designer|userAlias": "goods2",
+        "designer|userClassName": "goods2",
+        "header": false,
+        "height": 200,
+        "layout": "fit",
+        "margin": null,
+        "style": null,
+        "title": "품목",
+        "width": null
+    },
+    "name": "goods2",
+    "designerId": "39e8f8b3-1635-463d-976f-04884c267378",
+    "viewControllerInstanceId": "a6c7edb8-d25c-4956-81fd-f9a512d0184c",
+    "viewModelInstanceId": "9e0a7fd5-f3b2-418e-b745-268b590a943c",
+    "cn": [
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "baseCls": null,
+                "cls": [
+                    "goodsPanel"
+                ],
+                "columnLines": true,
+                "header": false,
+                "margin": 5,
+                "store": [
+                    "{goods}"
+                ],
+                "style": [
+                    "{",
+                    "borderColor: '#707580',",
+                    "borderStyle: 'solid',",
+                    "borderWidth: '1px'",
+                    "}"
+                ],
+                "title": "품 목"
+            },
+            "name": "MyGridPanel2",
+            "configAlternates": {
+                "store": "binding"
+            },
+            "designerId": "f4f80af6-3e1c-4baf-b2e6-3c2ae3ae4f35",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyStyle": [
+                            "{",
+                            "'backgroundColor': '#BDBDBD'",
+                            "}"
+                        ],
+                        "dock": "top",
+                        "height": 1,
+                        "hidden": true,
+                        "margin": null,
+                        "title": null,
+                        "width": 100
+                    },
+                    "name": "MyPanel13",
+                    "designerId": "d3111197-5356-40d4-bf15-ebc3eb66a93e"
+                },
+                {
+                    "type": "Ext.grid.column.Check",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "defaultWidth": null,
+                        "text": null,
+                        "width": 40
+                    },
+                    "name": "MyCheck",
+                    "designerId": "5070592b-965c-4341-83ae-791583dd29b3"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "a",
+                        "text": "코드",
+                        "width": 80
+                    },
+                    "name": "MyColumn",
+                    "designerId": "84f86e34-4c27-4a84-b632-5c214f819087"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "b",
+                        "text": "품목명",
+                        "width": null
+                    },
+                    "name": "MyColumn1",
+                    "designerId": "a54f6d5d-ca0f-42ed-84fb-cd3116d786d3"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "c",
+                        "text": "규격",
+                        "width": 70
+                    },
+                    "name": "MyColumn2",
+                    "designerId": "56d9aa7e-ef42-4b47-8894-a5af5a06a1a1"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "d",
+                        "text": "단위",
+                        "width": 50
+                    },
+                    "name": "MyColumn3",
+                    "designerId": "f2f8d2e5-e3da-4235-b691-57c1291777c0"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "e",
+                        "text": "수량",
+                        "width": 50
+                    },
+                    "name": "MyColumn4",
+                    "designerId": "fc8a140c-0ed4-45ce-bf38-2c6a9fac4402"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "f",
+                        "text": "단가",
+                        "width": 80
+                    },
+                    "name": "MyColumn5",
+                    "designerId": "9487f410-0e08-45c7-ac61-9d25e6f00504"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "g",
+                        "text": "공급가",
+                        "width": 80
+                    },
+                    "name": "MyColumn7",
+                    "designerId": "898ed076-58a9-4d34-ba5d-24c8439eccff"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "h",
+                        "text": "부가세",
+                        "width": 80
+                    },
+                    "name": "MyColumn11",
+                    "designerId": "30f695ec-766c-4642-addb-a98588ca70a2"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "i",
+                        "text": "합계",
+                        "width": 80
+                    },
+                    "name": "MyColumn12",
+                    "designerId": "f3e63e04-01f0-476b-bde0-b2a2b0a236be"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "j",
+                        "text": "창고",
+                        "width": 63
+                    },
+                    "name": "MyColumn13",
+                    "designerId": "20dd4811-0bdf-47ae-bcf3-f2fbca29277a"
+                },
+                {
+                    "type": "Ext.view.Table",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyTable",
+                    "designerId": "13253850-d15a-429e-8a58-ad44b2254b7d"
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom",
+                        "height": null,
+                        "title": "소 계 : 30,000",
+                        "width": 100
+                    },
+                    "name": "MyPanel9",
+                    "designerId": "da3abb4e-d271-4f35-bfe8-e54a8ad7efe0"
+                },
+                {
+                    "type": "Ext.grid.column.Check",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyCheck2"
+                    },
+                    "name": "MyCheck2",
+                    "designerId": "e43115bb-8228-4bde-8d5e-31ffea809e23"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "accounting_generalbook_popup_popgeneralbooknorth",
+        "designer|userClassName": "GeneralViewController"
+    },
+    "name": "MyForm7ViewController",
+    "designerId": "4c6652fb-cd2a-41a6-bb77-f913604530db"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <typeAliases>
+        <typeAlias type="com.project.board.service.BoardVO" alias="BoardVO" />
+        <typeAlias type="com.project.board.service.impl.BoardDao" alias="BoardDao"/>
+
+        <typeAlias type="java.util.Map" alias="Map"/>
+        <typeAlias type="java.util.HashMap" alias="HashMap"/>
+        <typeAlias type="java.util.List" alias="List"/>
+    </typeAliases>
+
+    <!--<environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+                <dataSource type="">
+                    <property name="driver" value="com.mysql.jdbc.Driver"/>
+                    <property name="url" value="jdbc:mysql://localhost:3306/kcs?autoReconnect=true"/>
+                    <property name="username" value="kcs"/>
+                    <property name="password" value="kimchan10!"/>
+                </dataSource>
+        </environment>
+    </environments>-->
+
+    <mappers>
+        <mapper resource="sqlmap/mapper/BoardMapper.xml"/>
+    </mappers>
+</configuration>

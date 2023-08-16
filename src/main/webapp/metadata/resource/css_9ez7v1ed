@@ -1,0 +1,14 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css_9ez7v1ed",
+        "url": "./resources/css/EhmTheme.css"
+    },
+    "name": "css",
+    "designerId": "f20005ac-2cc5-4c71-932f-c0fc848170c7"
+}

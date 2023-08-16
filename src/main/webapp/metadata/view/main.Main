@@ -1,0 +1,64 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "main",
+        "designer|userClassName": "main.Main",
+        "layout": "border"
+    },
+    "name": "MyViewport",
+    "designerId": "0870ebd7-cd80-4b56-ae64-5ad65d938be5",
+    "viewControllerInstanceId": "74b9c303-1d8b-4110-a930-e7ac4f990342",
+    "viewModelInstanceId": "e3aa6fde-1573-4d04-8275-4b7b1ad519d3",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 120,
+                "layout|region": "north",
+                "minWidth": 1200
+            },
+            "name": "main.mainnorth",
+            "designerId": "f7b69a85-dceb-4d94-8dc4-56f0eb590c39",
+            "masterInstanceId": "10743a34-91da-4f01-bc9e-8b3199240007"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center"
+            },
+            "name": "main.maincenter",
+            "designerId": "435a79e8-6a18-4372-8d0c-537806da8ce3",
+            "masterInstanceId": "132e447e-bef0-4e7d-8ccc-71fa4db93f92"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "west",
+                "width": 245
+            },
+            "name": "main.mainwest",
+            "designerId": "499600e9-5ec1-439f-9861-b12a96a6ea31",
+            "masterInstanceId": "9676aa54-bb63-42b3-9331-585d9a246bdd"
+        }
+    ]
+}

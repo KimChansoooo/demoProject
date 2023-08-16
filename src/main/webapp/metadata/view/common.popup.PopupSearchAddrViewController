@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "popup_search_addr",
+        "designer|userClassName": "common.popup.PopupSearchAddrViewController"
+    },
+    "designerId": "1ae0b329-b272-47f1-8062-6ab7b6c09dda"
+}

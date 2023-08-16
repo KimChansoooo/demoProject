@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "accounting_generalbook_popup_popgeneralbooksouth",
+        "designer|userClassName": "JournalizeViewController"
+    },
+    "name": "MyPanel2ViewController1",
+    "designerId": "3510e336-690c-439a-ae02-a9e09d334c37"
+}

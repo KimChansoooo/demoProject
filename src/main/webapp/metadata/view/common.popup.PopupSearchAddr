@@ -1,0 +1,598 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoShow": true,
+        "defaults": null,
+        "designer|initialView": true,
+        "designer|userAlias": "popup_search_addr",
+        "designer|userClassName": "common.popup.PopupSearchAddr",
+        "fixed": true,
+        "height": 510,
+        "minHeight": null,
+        "monitorResize": null,
+        "resizable": false,
+        "title": "우편번호검색",
+        "width": 400
+    },
+    "name": "MyWindow2",
+    "configAlternates": {
+        "resizable": "boolean"
+    },
+    "designerId": "e18e689d-bfdc-4320-98fd-a85fcef6c1a0",
+    "viewControllerInstanceId": "1ae0b329-b272-47f1-8062-6ab7b6c09dda",
+    "viewModelInstanceId": "247cf77e-4491-4c45-a66b-f0147c9f8db9",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": null,
+                "defaults": [
+                    "{",
+                    "columnWidth:1,",
+                    "margin : '7 7 0 7'",
+                    "}"
+                ],
+                "layout": "column",
+                "margin": null,
+                "padding": null,
+                "title": null
+            },
+            "name": "MyForm3",
+            "designerId": "90fbe2e1-2846-4e7e-806d-81ccaee21b1b",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Display",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "layout|columnWidth": 1,
+                        "value": "시/도를 선택 후 동이름/도로명/건물명을 입력해 주시기 바랍니다."
+                    },
+                    "name": "MyDisplayField1",
+                    "designerId": "0d291b36-8331-4c94-beb0-bf60672decb2"
+                },
+                {
+                    "type": "Ext.form.RadioGroup",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "layout|columnWidth": 1,
+                        "width": null
+                    },
+                    "name": "MyRadioGroup1",
+                    "designerId": "031d321e-8c53-4eef-a297-5865e51e63fc",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Radio",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "도로명 주소 검색",
+                                "fieldLabel": null
+                            },
+                            "name": "MyRadio3",
+                            "designerId": "787973b7-78b4-4f51-87df-26f97012ecb8"
+                        },
+                        {
+                            "type": "Ext.form.field.Radio",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "지번 주소 검색",
+                                "fieldLabel": null
+                            },
+                            "name": "MyRadio4",
+                            "designerId": "a40b0c79-b004-483f-91ad-990e90efed63"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "displayField": "name",
+                        "editable": false,
+                        "emptyText": "시/도",
+                        "fieldLabel": null,
+                        "layout|columnWidth": 0.5,
+                        "margin": null,
+                        "name": "sido_code",
+                        "reference": "sido_code",
+                        "store": [
+                            "{",
+                            "fields:[",
+                            "'code', 'name'",
+                            "],",
+                            "data:[",
+                            "{",
+                            "code:'11',",
+                            "name:'서울특별시'",
+                            "}, {",
+                            "code:'42',",
+                            "name:'강원도'",
+                            "}, {",
+                            "code:'41',",
+                            "name:'경기도'",
+                            "}, {",
+                            "code:'48',",
+                            "name:'경상남도'",
+                            "}, {",
+                            "code:'47',",
+                            "name:'경상북도'",
+                            "}, {",
+                            "code:'29',",
+                            "name:'광주광역시'",
+                            "}, {",
+                            "code:'27',",
+                            "name:'대구광역시'",
+                            "}, {",
+                            "code:'30',",
+                            "name:'대전광역시'",
+                            "}, {",
+                            "code:'26',",
+                            "name:'부산광역시'",
+                            "}, {",
+                            "code:'36',",
+                            "name:'세종특별자치시'",
+                            "}, {",
+                            "code:'31',",
+                            "name:'울산광역시'",
+                            "}, {",
+                            "code:'28',",
+                            "name:'인천광역시'",
+                            "}, {",
+                            "code:'46',",
+                            "name:'전라남도'",
+                            "}, {",
+                            "code:'45',",
+                            "name:'전라북도'",
+                            "}, {",
+                            "code:'50',",
+                            "name:'제주특별자치도'",
+                            "}, {",
+                            "code:'44',",
+                            "name:'충청남도'",
+                            "}, {",
+                            "code:'43',",
+                            "name:'충청북도'",
+                            "}",
+                            "]",
+                            "",
+                            "}"
+                        ],
+                        "valueField": "code"
+                    },
+                    "name": "MyComboBox3",
+                    "configAlternates": {
+                        "store": "array"
+                    },
+                    "designerId": "5e8cb6f7-c4a6-4b8a-9c74-ff60ad05bf59"
+                },
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "layout|columnWidth": 0.5,
+                        "name": "gu_name",
+                        "reference": "gu_name"
+                    },
+                    "name": "MyComboBox4",
+                    "designerId": "dfc7cd0c-b5a7-4633-87f2-5522146b4875"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "layout|columnWidth": null
+                    },
+                    "name": "MyTextField7",
+                    "designerId": "a65c215c-43b6-4877-8132-a9c4ec3901db",
+                    "cn": [
+                        {
+                            "type": "Ext.form.trigger.Trigger",
+                            "reference": {
+                                "name": "triggers",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": "x-form-search-trigger",
+                                "name": "addrSearchTrigger"
+                            },
+                            "name": "MyTrigger4",
+                            "designerId": "b8caf6b2-a831-465e-8a7e-c2a9b312b19b",
+                            "cn": [
+                                {
+                                    "type": "fixedfunction",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|params": [
+                                            "field",
+                                            "trigger",
+                                            "e"
+                                        ],
+                                        "fn": "handler",
+                                        "implHandler": [
+                                            ""
+                                        ]
+                                    },
+                                    "name": "handler",
+                                    "designerId": "feeeee2d-87f2-4e11-a88a-1dcc2cc4d34e"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onTextfieldBlur",
+                                "name": "blur",
+                                "scope": "me"
+                            },
+                            "name": "onTextfieldBlur",
+                            "designerId": "61ebc489-65e2-4d9a-bb59-f211a3a3618c"
+                        },
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onTextfieldBlur1",
+                                "name": "blur",
+                                "scope": "me"
+                            },
+                            "name": "onTextfieldBlur1",
+                            "designerId": "1d72f30e-3259-40e0-bba1-aa524e26c0c6"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Hidden",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Label"
+                    },
+                    "name": "MyHiddenField",
+                    "designerId": "86226a1d-f4df-4fa7-a1f2-67757bebc4e8"
+                },
+                {
+                    "type": "Ext.form.field.Date",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Label",
+                        "format": "Y-m-d"
+                    },
+                    "name": "MyDateField6",
+                    "designerId": "8fddc4ff-5f54-4d28-9b1b-1e3d64bd0fe1"
+                }
+            ]
+        },
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "baseCls": null,
+                "bodyBorder": false,
+                "bodyPadding": null,
+                "cls": [
+                    "gridpanel"
+                ],
+                "height": 200,
+                "margin": "7 7 0 7",
+                "maxWidth": null,
+                "padding": null,
+                "scrollable": null,
+                "title": null,
+                "width": null
+            },
+            "name": "MyGridPanel4",
+            "configAlternates": {
+                "scrollable": "boolean"
+            },
+            "designerId": "8a69ca71-b526-4093-80a9-795f7d0f8c58",
+            "cn": [
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "align": "center",
+                        "dataIndex": "string",
+                        "flex": 1,
+                        "text": "우편번호",
+                        "width": null
+                    },
+                    "name": "MyColumn26",
+                    "designerId": "1d0671d7-934a-4e6a-8df8-2892c88ce450"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "align": null,
+                        "dataIndex": "string",
+                        "flex": 5,
+                        "text": "주소",
+                        "width": null
+                    },
+                    "name": "MyColumn27",
+                    "designerId": "74f73b62-4a64-4c62-adae-c25d16df1c4d"
+                },
+                {
+                    "type": "Ext.view.Table",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyTable2",
+                    "designerId": "2f1e133d-e167-4b4e-b73f-52ada926a694"
+                },
+                {
+                    "type": "Ext.toolbar.Paging",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "anchorSize": null,
+                        "container|pack": null,
+                        "displayInfo": null,
+                        "dock": "bottom",
+                        "height": null,
+                        "shrinkWrap": null,
+                        "width": 360
+                    },
+                    "name": "MyPagingToolbar2",
+                    "designerId": "768cd15c-4853-4350-96ad-69632a7a1551"
+                },
+                {
+                    "type": "viewcontrollereventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onGridpanelSelectionChange",
+                        "name": "selectionchange",
+                        "scope": "me"
+                    },
+                    "name": "onGridpanelSelectionChange",
+                    "designerId": "e8094bb7-80ba-48c1-9faa-01b009ce31a5"
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "defaults": [
+                    "{",
+                    "columnWidth: 1,",
+                    "margin: '7 7 0 7'",
+                    "}"
+                ],
+                "layout": "column",
+                "title": null
+            },
+            "name": "MyPanel23",
+            "designerId": "1963b48d-34db-4a88-97cc-b1468cebe7f5",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "선택 주소"
+                    },
+                    "name": "MyTextField8",
+                    "designerId": "c05eeaf2-8183-4446-a448-a993e92d1d39"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "도로명 주소"
+                    },
+                    "name": "MyTextField9",
+                    "designerId": "3a3bad09-fc14-4597-809e-fab020bc0719",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onTextfieldBlur2",
+                                "name": "blur",
+                                "scope": "me"
+                            },
+                            "name": "onTextfieldBlur2",
+                            "designerId": "03ebfebc-6f41-42f9-b94a-b8d77be805c4"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "상세 주소"
+                    },
+                    "name": "MyTextField10",
+                    "designerId": "a966d943-111a-426d-8659-e6456042a8ea"
+                },
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "alignTarget": null,
+                        "container|pack": "end",
+                        "dock": "bottom",
+                        "margin": "10 0 0 0"
+                    },
+                    "name": "MyToolbar7",
+                    "designerId": "c12a27ac-8648-4214-a54f-8cad064fbce3",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "도로명 주소로 입력",
+                                "fieldLabel": null,
+                                "layout|flex": null,
+                                "reference": "chk_roadname"
+                            },
+                            "name": "MyCheckbox1",
+                            "designerId": "743c4690-8444-421f-a554-9732f93de437"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "선택"
+                            },
+                            "name": "MyButton30",
+                            "designerId": "4aa2a45d-d69c-41f2-b290-72735334129d",
+                            "cn": [
+                                {
+                                    "type": "fixedfunction",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|params": [
+                                            "button",
+                                            "e"
+                                        ],
+                                        "fn": "handler",
+                                        "implHandler": [
+                                            "me.callBackSubmit();"
+                                        ]
+                                    },
+                                    "name": "handler",
+                                    "designerId": "b6bc2689-9489-4cf5-843a-05280e48096c"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "취소"
+                            },
+                            "name": "MyButton31",
+                            "designerId": "d8aa6e44-4963-48f7-8049-32634e6031e6"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

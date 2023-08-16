@@ -1,0 +1,39 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "name": "Ehm",
+        "stores": [
+            "CommonCodeStore"
+        ],
+        "views": [
+            "main.Main",
+            "main.MainNorth",
+            "main.MainWest",
+            "main.MainWestMenu",
+            "main.MainCenter",
+            "GeneralBook",
+            "GeneralBookPopup",
+            "General",
+            "goods",
+            "MyPanel8",
+            "goods2",
+            "MyPanel15",
+            "popup.Customer",
+            "MyPanel22",
+            "MyWindow1",
+            "common.popup.DateSelectPopup",
+            "MyPanel2",
+            "common.popup.PopupSearchAddr",
+            "common.popup.PopupCode",
+            "baseinfo.customerinfo.CustomerInfo",
+            "MyPanel27"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

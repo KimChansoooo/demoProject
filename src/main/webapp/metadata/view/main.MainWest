@@ -1,0 +1,93 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "main_west",
+        "designer|userClassName": "main.MainWest",
+        "height": null,
+        "layout": "fit",
+        "title": "메 뉴",
+        "width": null
+    },
+    "name": "MyPanel1",
+    "designerId": "9676aa54-bb63-42b3-9331-585d9a246bdd",
+    "viewControllerInstanceId": "c5a63e28-7690-48c7-9524-5f4bbbe1513b",
+    "viewModelInstanceId": "1adf89c2-799f-4dfa-a70a-9cfda53c3ad5",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyCls": [
+                    "defaultpanel"
+                ],
+                "bodyStyle": null,
+                "container|activeOnTop": true,
+                "container|animate": null,
+                "container|collapseFirst": null,
+                "container|sequence": null,
+                "itemId": "west_detail",
+                "layout": "accordion",
+                "title": null
+            },
+            "name": "MyPanel1",
+            "designerId": "4a2d09a8-408e-4f15-951c-11071c7b3c16"
+        },
+        {
+            "type": "viewcontrollereventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onPanelAfterRender",
+                "implHandler": [
+                    "var me = this.getView().down('#west_detail');",
+                    "",
+                    "Ext.Ajax.request({",
+                    "    url:'./resources/json/menu.json',",
+                    "    success : function(response){",
+                    "        var resObj =Ext.decode(response.responseText);",
+                    "        var arr_temp = [];",
+                    "        for(var i=0;i<resObj.children.length;i++){",
+                    "            var title = resObj.children[i].menuName;",
+                    "            var itemid = resObj.children[i].itemId;",
+                    "            var prefix ='<span style=\"text-align:left;\" role=\"presentation\" class=\"'+resObj.children[i].iconCls+'\"></span>';",
+                    "            var panel = Ext.create('Ehm.view.main.MainWestMenu',{",
+                    "                title : prefix+title,",
+                    "                itemId: itemid,",
+                    "                store: new Ext.data.TreeStore({",
+                    "                    fields : ['menuName','expanded','leaf'],",
+                    "                    root : {",
+                    "                        text : 'root',",
+                    "                        expanded : true,",
+                    "                        children : resObj.children[i].children",
+                    "                    }",
+                    "                })",
+                    "",
+                    "            });",
+                    "            arr_temp.push(panel);",
+                    "",
+                    "        }",
+                    "        me.add(arr_temp);",
+                    "",
+                    "    }",
+                    "});"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "name": "onPanelAfterRender",
+            "designerId": "c3d8c98b-09cd-473e-89bf-a9cb4d0c53a0"
+        }
+    ]
+}

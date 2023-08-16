@@ -1,0 +1,225 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "accounting_generalbook_popup_popgeneralbooksouth",
+        "designer|userClassName": "JournalizeViewModel"
+    },
+    "name": "MyPanel2ViewModel1",
+    "designerId": "3fc74827-a7ab-4ab4-b0cc-ae7b6ecc0d73",
+    "cn": [
+        {
+            "type": "Ext.data.Store",
+            "reference": {
+                "name": "stores",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "data": [
+                    "[",
+                    "    {",
+                    "        \"a\": \"10800\",",
+                    "        \"b\": \"외상매출금\",",
+                    "        \"c\": \"1,100,000\",",
+                    "        \"d\": \"외상장부\",",
+                    "        \"e\": \"적요\"",
+                    "    }",
+                    "]"
+                ],
+                "name": "test"
+            },
+            "name": "MyStore1",
+            "designerId": "2c70eba9-baee-4855-b67f-199860817b1c",
+            "cn": [
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "a"
+                    },
+                    "name": "MyField2",
+                    "designerId": "9ebbe8e1-8f5b-4064-8d11-660d5cd3b4b2"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "b"
+                    },
+                    "name": "MyField3",
+                    "designerId": "cbc432f4-493c-4a2f-b250-bd46c929502a"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "c"
+                    },
+                    "name": "MyField4",
+                    "designerId": "26826847-7136-4af3-8092-b3b22820329a"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "d"
+                    },
+                    "name": "MyField5",
+                    "designerId": "4afe3da8-61e1-4d4c-acf8-9aad8047d566"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "e"
+                    },
+                    "name": "MyField6",
+                    "designerId": "9344edd8-5939-4a30-a2da-f27824ea0909"
+                }
+            ]
+        },
+        {
+            "type": "Ext.data.Store",
+            "reference": {
+                "name": "stores",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "data": [
+                    "[",
+                    "    {",
+                    "        \"a\": \"40100\",",
+                    "        \"b\": \"상품매출\",",
+                    "        \"c\": \"1,000,000\",",
+                    "        \"d\": \"우리은행\",",
+                    "        \"e\": \"적요1\"",
+                    "    },",
+                    "    {",
+                    "        \"a\": \"25500\",",
+                    "        \"b\": \"부가세\",",
+                    "        \"c\": \"100,000\",",
+                    "        \"d\": \"\",",
+                    "        \"e\": \"\"",
+                    "    },{",
+                    "                    a: '40100',",
+                    "                    b: '상품매출',",
+                    "                    c: '1,000,000',",
+                    "                    d: '우리은행',",
+                    "                    e: '적요1'",
+                    "                },",
+                    "                {",
+                    "                    a: '25500',",
+                    "                    b: '부가세',",
+                    "                    c: '100,000',",
+                    "                    d: '',",
+                    "                    e: ''",
+                    "                },",
+                    "                {",
+                    "                    a: '25500',",
+                    "                    b: '부가세',",
+                    "                    c: '100,000',",
+                    "                    d: '',",
+                    "                    e: ''",
+                    "                }",
+                    "]"
+                ],
+                "name": "test1"
+            },
+            "name": "MyStore2",
+            "designerId": "de48ae9f-cc0e-4127-9962-7bbd134f0b71",
+            "cn": [
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "a"
+                    },
+                    "name": "MyField2",
+                    "designerId": "1b297a2d-bcb5-4d76-a1f7-5dc3c55075d5"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "b"
+                    },
+                    "name": "MyField3",
+                    "designerId": "475a6fbc-4afb-4a23-beb4-6dd3930c405e"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "c"
+                    },
+                    "name": "MyField4",
+                    "designerId": "057e4b61-9323-4b72-8773-c5c23536e3ff"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "d"
+                    },
+                    "name": "MyField5",
+                    "designerId": "816ddb93-c1b5-453e-8e1c-dfa8ca97993b"
+                },
+                {
+                    "type": "Ext.data.field.Field",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "e"
+                    },
+                    "name": "MyField6",
+                    "designerId": "6c64e546-84ba-413d-9530-2fd6aca67660"
+                }
+            ]
+        }
+    ]
+}

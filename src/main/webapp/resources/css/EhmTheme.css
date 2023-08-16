@@ -1,0 +1,473 @@
+/*
+이름: menupael
+개발자: 이성호
+내용: 좌측 메뉴
+*/
+
+.menupanel
+{
+    background-color: #57677E;
+}
+
+.menupanel .x-grid-body
+{
+    background-color : #57677E;
+}
+
+.menupanel .x-grid-item
+{
+    color : #FFF;
+    background-color:#57677E;
+}
+
+.menupanel .x-grid-item-selected {
+    color: #FFF;
+    background-color: #5C90B5;
+}
+
+.menupanel .x-grid-item-focused {
+    color: #FFF;
+    background-color: #5C90B5;
+}
+
+.menupanel .x-grid-item-over {
+    color: #FFF;
+    background-color: #5C90B5;
+}
+
+/* 트리 아이콘 변경 */
+.menupanel .x-tree-icon-leaf {
+    background-image: url(../ehm_images/Icons/Menu/leaf.png);
+}
+.menupanel .x-tree-icon-parent {
+    background-image: url(../ehm_images/Icons/Menu/folder.png);
+}
+.menupanel .x-grid-tree-node-expanded .x-tree-icon-parent {
+    background-image: url(../ehm_images/Icons/Menu/folder-open.png);
+}
+.menupanel .x-accordion-hd .x-tool-img {
+    background-image: url(../ehm_images/Icons/Menu/tool-sprites.png);
+}
+
+.x-tree-lines .x-tree-elbow-plus {
+    background-image: url(../ehm_images/Icons/Menu/elbow-plus.png);
+}
+.x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-plus {
+    background-image: url(../ehm_images/Icons/Menu/elbow-minus.png);
+}
+.x-tree-lines .x-tree-elbow-end-plus {
+    background-image: url(../ehm_images/Icons/Menu/elbow-plus.png);
+}
+.x-tree-lines .x-tree-elbow-end-minus {
+    background-image: url(../ehm_images/Icons/Menu/elbow-minus.png);
+}
+.x-tree-lines .x-grid-tree-node-expanded .x-tree-elbow-end-plus {
+    background-image: url(../ehm_images/Icons/Menu/elbow-minus.png);
+}
+
+
+/*
+이름: defaultheader
+개발자: 이성호
+내용:
+*/
+
+.defaultheader {
+    background-color: #1E3364;
+}
+
+.defaultpanel {
+    background-color: #57677E;
+}
+
+/*
+이름: credit
+개발자: 강문수
+내용: 전표 분개창 차변 항목
+*/
+
+/* 차변 그리드의 패널 색상 변경 */
+.credit .x-panel-header {
+    color: #FFC0C0;
+    background-color: #FFC0C0;
+}
+
+/* 차변 그리드의 패널 헤더 텍스트 색상 변경 */
+.credit .x-panel-header-title {
+    color: #000;
+}
+
+/*
+이름: debit
+개발자: 강문수
+내용: 전표 분개창 대변 항목
+*/
+
+/* 대변 그리드의 패널 색상 변경 */
+.debit .x-panel-header {
+    background-color: #C0C0FF;
+}
+
+/* 대변 그리드의 패널 헤더 텍스트 색상 변경 */
+.debit .x-panel-header-title {
+    color: #000;
+}
+
+/*
+이름: goodsPanel
+개발자: 강문수
+내용: 전표창의 품목 그리드에 사용됨
+*/
+
+/* 차변 그리드의 패널 헤더 바탕 색상 변경 */
+.goodsPanel .x-panel-header {
+    background-color: #F2F6FA;
+}
+
+/* 차변 그리드의 패널 헤더 텍스트 색상 변경 */
+.goodsPanel .x-panel-header-title {
+    color: #000;
+    font-weight: normal;
+}
+
+/*
+이름: number
+개발자: 강문수
+내용: 그리드 넘버필드
+*/
+
+/* 넘버필드의 텍스트 정렬 변경 */
+.number .x-form-text-default {
+    text-align: right;
+}
+
+/*
+이름 : mask
+개발자 : 이성호
+내용 : 모달 처리시에 Mask 속성 제거
+*/
+.x-mask {
+    background-color:rgba(255,255,255,0);
+}
+
+/*
+이름 : mask
+개발자 : 손의균
+내용 : 상단 마스킹 처리
+*/
+.x-mask-top {
+	z-index:20000;
+}
+
+/*
+이름 : gridpanel
+개발자 : 이성호
+내용 : 그리드패널 border 및 그리드 배경색상 지정
+*/
+.gridpanel {
+    border-color: #BDBDBD;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.gridpanel .x-grid-view {
+    background-color:#FFF;
+}
+
+
+/*
+grid cell 세로 구분선
+*/
+.gridpanel .x-grid-cell {
+    border-right: 1px solid #d3d3d3;
+}
+
+
+.tabletextfield-l {
+    background-color: #d4d8dc;
+    border-style: solid;
+    border-color: #FFA2A2;
+    border-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+
+.tabletextfield-r {
+    background-color: #d4d8dc;
+    border-style: solid;
+    border-color: #FFA2A2;
+    border-width: 1px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+}
+
+
+.tabletextfield-c {
+    background-color: #d4d8dc;
+    border-style: solid;
+    border-color: #FFA2A2;
+    border-width: 1px;
+    border-bottom-width: 0px;
+}
+
+
+.tabletextfield-end-l {
+    background-color: #d4d8dc;
+    border-style: solid;
+    border-color: #FFA2A2;
+    border-width: 1px;
+    border-right-width: 0px;
+}
+
+.tabletextfield-end-r {
+    background-color: #d4d8dc;
+    border-style: solid;
+    border-color: #FFA2A2;
+    border-width: 1px;
+    border-left-width: 0px;
+}
+
+.tabletextfield {
+    background-color: #d4d8dc;
+    border-style: solid;
+    border-color: #FFA2A2;
+    border-width: 1px;
+}
+
+
+
+.grid-row-blue-font {
+    color: blue !important;
+}
+.grid-row-blue-font .x-grid-item-focused {
+    color: blue !important;
+}
+
+.grid-row-line-through {
+    text-decoration: line-through;
+}
+
+.grid-row-blue-font-line-through {
+    color: blue !important;
+    text-decoration: line-through;
+}
+
+.grid-row-gray-font {
+    color: gray !important;
+}
+.grid-row-gray-font .x-grid-item-focused {
+    color: gray !important;
+}
+
+/* 테이블레이아웃시 border 색상변경 */
+.tbl .x-panel-body-default {
+    color : #A0A0A0
+}
+
+
+.x-grid-row .column-color {
+    background-color: #E5E5E5;
+}
+
+/* 대분류 */
+.x-grid-row .major_column { 
+    background-color: #FFBBD1; 
+	//font-weight: bold; 
+}
+/* 소분류 */
+.x-grid-row .minor_column { 
+    background-color: #CEE8FF; 
+	//font-weight: bold; 
+}
+/* 항목 */
+.x-grid-row .item_column { 
+    background-color: #FFFFFF; 	 
+}
+
+/* 빈항목 */
+.x-grid-row .blank_column { 
+    background-color: #EBECEF; 	 
+}
+
+/* 빈공간 */
+.x-grid-row .last_column { 
+    background-color: #FFFFFF; 	 
+}
+
+/*
+이름 : grid-disabled
+개발자 : 최종학
+내용 : 그리드패널 비활성화
+*/
+.grid-disabled .x-grid-cell {
+    opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=55);
+}
+
+/*
+이름 : icon-arrow
+개발자 : 최종학
+내용 : 버튼 화살표시
+*/
+.icon-arrow-down
+{
+    background-image: url(../ehm_images/Icons/more_down.png);
+    background-repeat: no-repeat;
+}
+
+.icon-arrow-up
+{
+    background-image: url(../ehm_images/Icons/more_up.png);
+    background-repeat: no-repeat;
+}
+
+/*
+이름 : electronic-grid
+개발자 : 최종학
+내용 : 그리드패널 border 및 그리드 배경색상 지정
+*/
+.electronic-grid {
+    border-color: #BDBDBD;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.electronic-grid .x-grid-view {
+    background-color:#FFF;
+}
+
+.electronic-grid .x-grid-cell {
+    border-right: 1px solid #d3d3d3;
+}
+
+.electronic-grid .grid-row-line-blue .x-grid-cell{
+    background-color: #F0F8FF;
+}
+
+.electronic-grid .grid-row-line-red .x-grid-cell {
+    background-color: #FFF0F5;
+}
+
+.electronic-grid .grid-row-line-through .x-grid-cell {
+    text-decoration-line: line-through;
+}
+
+
+.electronic-grid .x-grid-item-over .x-grid-cell {
+    background-color: #E3E5EB !important;
+}
+
+.electronic-grid .x-grid-item-selected .x-grid-cell {
+    background-color: #C3C9D5 !important;
+}
+
+.x-grid-cell-inner-treecolumn
+{
+    padding: 8px 3px 3px 3px;
+}
+
+/*
+스마트증빙 처리를 위함 임시 css
+actioncolumn inner 여백 조정
+*/
+.x-grid-cell-inner-action-col {
+    padding: 3px 10px 0px 10px; !important;
+}
+
+/*
+    그리드 체크박스 크기 조정을 위한 처리
+*/
+.x-grid-cell-row-checker .x-grid-cell-inner {
+    padding: 0px 0px 0px 0px;
+}
+.x-column-header-checkbox .x-column-header-inner {
+    padding: 0px 0px 0px 0px;
+}
+.x-grid-row-checker, .x-column-header-checkbox .x-column-header-text {
+    height: 22px;
+    width: 22px;
+    background-image: url(../ehm_images/Icons/grid_checkbox.png);
+    line-height: 22px;
+}
+.x-grid-hd-checker-on .x-column-header-text, .x-grid-item-selected .x-grid-row-checker, .x-grid-item-selected .x-grid-row-checker {
+    background-position: 0 -22px;
+}
+
+/* sencha datepicker 지정된 날짜에 스타일 지정 ↓ */
+.x-datepicker-specialdate {
+	
+}
+.x-datepicker-specialdate div{
+color:blue;font-weight:bold;
+}
+/* sencha datepicker 지정된 날짜에 스타일 지정 ↑ */
+
+
+.quickmenu .x-grid-item-focused .x-grid-cell-inner:before
+{
+    display: none;
+}
+
+.hidden-title-window {
+    border-width: 1px;
+}
+
+.hidden-title-window .x-panel-header-default-framed-top {
+    background-color: white;
+}
+
+.hidden-title-window .x-panel-header-default-framed-top {
+    border-color: white;
+}
+
+.hidden-title-window .x-panel-header-title {
+    background-color: white;
+    border-style: none;
+}
+
+
+.cashbot-insert-btn {
+    background: #bfbfbf;
+    border-radius: 10;
+    border-style: none;
+}
+
+.cashbot-insert-btn:hover {
+    background: #bfbfbf;
+}
+
+.cashbot-insert-btn:focus {
+    background: #bfbfbf;
+}
+
+.cashbot-insert-btn .x-btn-inner-default-large {
+    color: white;
+}
+
+/*거래처별,품목별 수불내역 summary grid*/
+.summaryGridOne {
+    border-top: 1px solid #9DA0AA;
+    border-bottom: 1px solid #9DA0AA;
+    border-left: 1px solid #9DA0AA;
+    border-right: 0px;
+}
+
+.summaryGridOne .x-grid-row {
+    height: 47px;
+}
+
+.summaryGridOne .x-grid-cell {
+    vertical-align: middle;
+}
+
+.summaryGridOne .x-grid-item-focused .x-grid-cell-inner:before {
+    border: 0;
+}
+
+.summaryGridTwo {
+    border-top: 1px solid #9DA0AA;
+    border-bottom: 1px solid #9DA0AA;
+    border-left: 0px;
+    border-right: 1px solid #9DA0AA;
+}

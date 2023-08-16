@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "accounting_generalbook_popup_popgeneralbook",
+        "designer|userClassName": "GeneralBookPopupViewModel"
+    },
+    "name": "MyWindow1ViewModel",
+    "designerId": "8ebfb9fc-1740-444e-9a2a-a47d2336e412"
+}

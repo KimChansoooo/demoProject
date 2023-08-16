@@ -1,0 +1,68 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "main_center",
+        "designer|userClassName": "main.MainCenter",
+        "height": null,
+        "layout": "fit",
+        "title": null,
+        "width": null
+    },
+    "name": "MyPanel2",
+    "designerId": "132e447e-bef0-4e7d-8ccc-71fa4db93f92",
+    "viewControllerInstanceId": "4ffd718b-205f-431d-b431-ed4e1314d152",
+    "viewModelInstanceId": "3434b183-2679-402d-962b-6743fdab40a6",
+    "cn": [
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "defaults": [
+                    "{",
+                    "closable: true",
+                    "}"
+                ],
+                "itemId": "main_tab"
+            },
+            "name": "MyTabPanel",
+            "designerId": "bee1128d-b16e-4f13-9157-dbfcf3288415",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "매입매출전표"
+                    },
+                    "name": "generalbook",
+                    "designerId": "066e5d88-dc36-49e5-b2e9-01ad60bc8e3f",
+                    "masterInstanceId": "c8c5cace-302d-435e-9aa2-e5888b3ef97a",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig",
+                            "designerId": "20d78868-4197-4dc3-acb9-56e9e2b86364"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

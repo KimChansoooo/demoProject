@@ -1,0 +1,66 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "baseinfo_customerinfo",
+        "designer|userClassName": "baseinfo.customerinfo.CustomerInfo",
+        "height": null,
+        "layout": "border",
+        "title": "My Panel",
+        "width": null
+    },
+    "name": "MyPanel24",
+    "designerId": "479e43c0-8e6c-4285-b832-6ddbe4c64905",
+    "viewControllerInstanceId": "54ea2c12-05f5-4977-940b-6f9badfa8338",
+    "viewModelInstanceId": "bd979349-5b7f-435e-a169-d400070e69bb",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 150,
+                "layout|region": "north",
+                "title": "검색창"
+            },
+            "name": "MyPanel24",
+            "designerId": "82b21eca-7810-47d9-bf64-b1b270714313"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center",
+                "title": "좌측 그리드"
+            },
+            "name": "MyPanel25",
+            "designerId": "85f01f3b-57a5-419f-a7b4-9b9df8c100d9"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "east",
+                "title": "우측 정보",
+                "width": 450
+            },
+            "name": "MyPanel26",
+            "designerId": "729c49fd-9e6a-43f8-9256-9c6850498f04"
+        }
+    ]
+}

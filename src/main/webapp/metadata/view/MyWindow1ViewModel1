@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "commonpopupsampletest2",
+        "designer|userClassName": "MyWindow1ViewModel1"
+    },
+    "name": "MyWindow1ViewModel1",
+    "designerId": "fbd36d8a-6bc1-469f-b9d8-3ec50770ee7f"
+}

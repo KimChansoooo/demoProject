@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.project.board.service.impl.BoardDao">
+
+    <select id="selectBoardList" parameterType="com.project.board.service.BoardVO" resultType="com.project.board.service.BoardVO">
+        SELECT *
+        FROM IQE_BOARD
+        WHERE SQ_USER = #{sq_user}
+        AND TY_STATUS = "10"
+        <if test='searchKeyword != null and searchKeyword != ""'>
+            AND (NM_BOARD LIKE CONCAT('%',#{searchKeyword},'%') OR CT_BOARD LIKE CONCAT('%',#{searchKeyword},'%'))
+        </if>
+    </select>
+
+<!--    <insert id="insertBoard" parameterType="com.project.board.service.BoardVO" useGeneratedKeys="true" keyProperty="sq_board">-->
+    <insert id="insertBoard" parameterType="com.project.board.service.BoardVO">
+        <selectKey keyProperty="sq_board" resultType="int" order="BEFORE">
+            SELECT IFNULL(MAX(SQ_BOARD+1),1) FROM IQE_BOARD
+        </selectKey>
+        INSERT INTO IQE_BOARD
+        (
+            SQ_USER
+          , SQ_BOARD
+          , CD_BOARD
+          , NM_BOARD
+          , CT_BOARD
+          , ID_USER
+          , TY_STATUS
+        )
+        VALUES
+        (
+            #{sq_user}
+          , #{sq_board}
+          , #{cd_board}
+          , #{nm_board}
+          , #{ct_board}
+          , #{id_user}
+          , '10'
+        )
+    </insert>
+
+    <update id="updateBoard">
+        UPDATE IQE_BOARD SET
+            CD_BOARD = #{cd_board},
+            CT_BOARD = #{ct_board},
+            NM_BOARD = #{nm_board}
+        WHERE SQ_USER = #{sq_user}
+        AND SQ_BOARD = #{sq_board}
+    </update>
+
+    <update id="deleteBoard" parameterType="com.project.board.service.BoardVO">
+        UPDATE IQE_BOARD SET
+            TY_STATUS = "00"
+        WHERE SQ_USER = #{sq_user}
+        AND SQ_BOARD IN (
+            <foreach collection="itemList" item="sq_board" index="index" separator=",">
+                ${sq_board}
+            </foreach>
+        )
+        AND TY_STATUS = "10"
+    </update>
+
+</mapper>

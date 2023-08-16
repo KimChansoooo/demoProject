@@ -1,0 +1,123 @@
+{
+    "type": "Ext.tree.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "menupanel"
+        ],
+        "defaultListenerScope": true,
+        "designer|userAlias": "main_west_menu",
+        "designer|userClassName": "main.MainWestMenu",
+        "height": 250,
+        "hideHeaders": true,
+        "rootVisible": false,
+        "title": "My Tree Panel",
+        "width": 400
+    },
+    "name": "MyTreePanel",
+    "designerId": "cf662cc8-ed7c-45e3-8373-4ce65150fbbb",
+    "viewControllerInstanceId": "c577ac06-fb22-419d-91c7-5190e773fae3",
+    "viewModelInstanceId": "b69e905d-4007-4a2d-abbb-3a293f6b6f1d",
+    "cn": [
+        {
+            "type": "Ext.tree.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "animate": false,
+                "enableTextSelection": false,
+                "rootVisible": false
+            },
+            "name": "MyTreeView",
+            "designerId": "94d14709-90d0-478f-8ff9-0cba986d33cf"
+        },
+        {
+            "type": "Ext.selection.RowModel",
+            "reference": {
+                "name": "selModel",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "mode": "SINGLE"
+            },
+            "name": "MyRowSelectionModel",
+            "designerId": "41c5e341-7f2c-4ba5-a39e-f288b88eedb4"
+        },
+        {
+            "type": "Ext.tree.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "menuName",
+                "flex": 1,
+                "text": "MyTreeColumn"
+            },
+            "name": "MyTreeColumn",
+            "designerId": "dc6f1116-7260-499b-9f05-3747cf648d29"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTreepanelItemClick",
+                "implHandler": [
+                    "var className = record.data.className;",
+                    "var menuName = record.data.menuName;",
+                    "var widgetName = record.data.widgetName;",
+                    "var screenID = record.data.screenID;",
+                    "if(record.data.lev>='2' && Ext.isDefined(widgetName) && Ext.isDefined(screenID)){",
+                    "",
+                    "",
+                    "    var globalTab = Ext.ComponentQuery.query('#main_tab')[0];",
+                    "    var activeTab = globalTab.down('[screenID='+screenID+']');",
+                    "    if(activeTab){",
+                    "        globalTab.setActiveItem(activeTab);",
+                    "    }else{",
+                    "        var newTab = Ext.widget(widgetName,{title : menuName,screenID : screenID});",
+                    "        globalTab.add(newTab);",
+                    "        globalTab.setActiveItem(newTab);",
+                    "    }",
+                    "",
+                    "}"
+                ],
+                "name": "itemclick",
+                "scope": "me"
+            },
+            "name": "onTreepanelItemClick",
+            "designerId": "8e957ec5-c2c1-4429-8765-7b30d76072e3"
+        },
+        {
+            "type": "viewcontrollereventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTreepanelCollapse",
+                "implHandler": [
+                    ""
+                ],
+                "name": "collapse",
+                "scope": "me"
+            },
+            "name": "onTreepanelCollapse",
+            "designerId": "c686fe30-9c5d-47de-b186-ec2b53f01d10"
+        }
+    ]
+}

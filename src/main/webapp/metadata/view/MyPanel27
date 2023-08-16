@@ -1,0 +1,271 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mypanel27",
+        "designer|userClassName": "MyPanel27",
+        "height": null,
+        "layout": "border",
+        "title": "My Panel",
+        "width": null
+    },
+    "name": "MyPanel27",
+    "designerId": "f257431b-b0b0-4077-a763-a45ca649bace",
+    "viewControllerInstanceId": "f6ea553f-ad52-4315-a025-b774a4defb0f",
+    "viewModelInstanceId": "80cb841f-bcab-4a44-bec7-f929bbfdcf0e",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 150,
+                "layout|region": "north",
+                "title": "My Panel"
+            },
+            "name": "MyPanel28",
+            "designerId": "3f6c4ce9-e724-477f-b990-4e1d92ec84c9"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "defaults": [
+                    "{",
+                    "toggleGroup: 'btn_account'",
+                    "}"
+                ],
+                "layout": "vbox",
+                "layout|flex": 1,
+                "layout|region": "west",
+                "title": "My Panel",
+                "width": 150
+            },
+            "name": "MyPanel29",
+            "designerId": "69513b10-64e8-4684-bd53-c3a9c79e2861",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "전체보기"
+                    },
+                    "name": "MyButton34",
+                    "designerId": "e1f7dc0e-da30-44ee-8f8d-4ee6ca5181b5"
+                },
+                {
+                    "type": "Ext.toolbar.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "name": "MySpacer",
+                    "designerId": "533be9ae-0798-4a77-802e-f88e58fa0776"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "당좌자산 : 101000 - 145999"
+                    },
+                    "name": "MyButton35",
+                    "designerId": "74594ab9-c2e9-412d-b082-57c991456d6b"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "재고자산 : 146000 - 175999"
+                    },
+                    "name": "MyButton",
+                    "designerId": "ecc023f0-45c8-424e-ae1d-6cd32812b16d"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "투자자산 : 176000 - 200999"
+                    },
+                    "name": "MyButton1",
+                    "designerId": "83ef33f5-32c1-4a2c-a886-32236da2c5e2"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "MyButton2"
+                    },
+                    "name": "MyButton2",
+                    "designerId": "a1e2633f-3337-412e-86ed-f677a1288811"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "MyButton3"
+                    },
+                    "name": "MyButton3",
+                    "designerId": "293f0e6c-d94c-4329-aa70-eb9d26257c4a"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "MyButton4"
+                    },
+                    "name": "MyButton4",
+                    "designerId": "be92eaea-ea87-4af7-be5a-ea91df421dbd"
+                }
+            ]
+        },
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "layout|region": "center",
+                "title": "My Grid Panel"
+            },
+            "name": "MyGridPanel7",
+            "designerId": "23bc09f8-69c0-447e-80c2-5d1e2184ee41",
+            "cn": [
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "string",
+                        "text": "String"
+                    },
+                    "name": "MyColumn30",
+                    "designerId": "b29b05aa-224f-4490-94f8-7e458b5b64dd"
+                },
+                {
+                    "type": "Ext.grid.column.Number",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "number",
+                        "text": "Number"
+                    },
+                    "name": "MyNumberColumn",
+                    "designerId": "59e03771-c795-46d2-826d-c25a90c9f275"
+                },
+                {
+                    "type": "Ext.grid.column.Date",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "date",
+                        "text": "Date"
+                    },
+                    "name": "MyDateColumn1",
+                    "designerId": "9769a05c-211d-4365-8561-9156985c1be3"
+                },
+                {
+                    "type": "Ext.grid.column.Boolean",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "bool",
+                        "text": "Boolean"
+                    },
+                    "name": "MyBooleanColumn",
+                    "designerId": "efdf72ec-1f09-4a55-8436-4178a35a61f6"
+                },
+                {
+                    "type": "Ext.view.Table",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyTable4",
+                    "designerId": "a5e14a06-aaa4-4caa-8449-0af1b9f5ba56"
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "layout|region": "east",
+                "title": "My Panel",
+                "width": 150
+            },
+            "name": "MyPanel31",
+            "designerId": "7d3b409a-16a6-41db-b8a0-d4939a1781a5"
+        }
+    ]
+}

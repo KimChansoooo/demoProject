@@ -1,0 +1,370 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoShow": true,
+        "designer|userAlias": "popupcustomer",
+        "designer|userClassName": "popup.Customer",
+        "height": null,
+        "layout": null,
+        "title": "거래처",
+        "width": 450
+    },
+    "name": "MyWindow",
+    "designerId": "1e473bfa-aac2-4aa4-951d-54f065e3e5e3",
+    "viewControllerInstanceId": "a4616569-ea0f-4894-b806-a296cc9e5194",
+    "viewModelInstanceId": "125e7cdc-5729-4433-abd3-97b97c9f1160",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": null,
+                "header": false,
+                "layout": null,
+                "title": "My Form"
+            },
+            "name": "MyForm2",
+            "designerId": "162d072c-0aa8-40f9-ac4b-fa03981df149",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "header": false,
+                        "height": null,
+                        "layout": "column",
+                        "maxHeight": 70,
+                        "padding": null,
+                        "title": "My Panel"
+                    },
+                    "name": "MyPanel17",
+                    "designerId": "fe383b37-546b-42bb-9571-a15c623b43cd",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "C00001",
+                                "fieldLabel": "코 드",
+                                "labelSeparator": " ",
+                                "labelWidth": 75,
+                                "layout|columnWidth": 0.4,
+                                "margin": "0 10 5 0"
+                            },
+                            "name": "MyTextField3",
+                            "designerId": "6fd4d09b-f256-4a3b-a8eb-75112224894c"
+                        },
+                        {
+                            "type": "Ext.toolbar.Spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 20,
+                                "layout|columnWidth": 0.1
+                            },
+                            "name": "MySpacer1",
+                            "designerId": "521d0e71-cf6a-4c13-a11e-2a676138ad80"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "거래처명",
+                                "labelSeparator": " ",
+                                "labelWidth": 75,
+                                "layout|columnWidth": 0.5,
+                                "margin": "0 0 5 0",
+                                "value": [
+                                    "아이퀘스트"
+                                ]
+                            },
+                            "name": "MyTextField4",
+                            "designerId": "5a22dda8-68cb-4a40-a1f8-f7d568faa89d"
+                        },
+                        {
+                            "type": "Ext.form.RadioGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "구 분",
+                                "height": 23,
+                                "labelSeparator": " ",
+                                "labelWidth": 70,
+                                "layout|columnWidth": 0.5,
+                                "margin": "0 0 5 0",
+                                "width": 400
+                            },
+                            "name": "MyRadioGroup",
+                            "designerId": "ddcd4d3c-ad9d-4e64-af2c-c8e1a6af119c",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "법인",
+                                        "checked": true,
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyRadio",
+                                    "designerId": "9006a737-9dd7-4a11-bd8e-6426027fe747"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "개인",
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyRadio1",
+                                    "designerId": "2f8125f0-aec0-4bfb-a64c-7ef144c07350"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "사업자번호",
+                                "labelSeparator": " ",
+                                "labelWidth": 75,
+                                "layout|columnWidth": 0.5,
+                                "margin": "0 0 5 0",
+                                "value": [
+                                    "'131-92-14578'"
+                                ]
+                            },
+                            "name": "MyTextField5",
+                            "designerId": "9cfc4473-c12d-4d45-a620-bb1c0e5cf4b6"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "goodsPanel"
+                        ],
+                        "collapsed": true,
+                        "collapsible": true,
+                        "title": "상세정보",
+                        "titleAlign": "right"
+                    },
+                    "name": "MyPanel21",
+                    "designerId": "0b0d2e13-99a2-4f3a-92c6-e05ba30f3a8d",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "activeTab": 0,
+                                "height": 300,
+                                "margin": null
+                            },
+                            "name": "MyTabPanel2",
+                            "designerId": "f6800b4e-cba2-469f-a0b3-274a4c95f69a",
+                            "cn": [
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "title": "기본정보"
+                                    },
+                                    "name": "MyPanel18",
+                                    "designerId": "9ba23fd4-9b6f-4df1-b21f-1f8686c8d42c",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.tab.Tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "name": "TabConfig3",
+                                            "designerId": "4dce9260-e09d-4492-8727-fc19851ead51"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "title": "추가정보"
+                                    },
+                                    "name": "MyPanel19",
+                                    "designerId": "422220a4-9905-49f7-8ea5-4e363bca9c04",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.tab.Tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "name": "TabConfig4",
+                                            "designerId": "18ed48ee-9d18-46f2-bf7c-3aacf200a5f9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "title": "기타정보"
+                                    },
+                                    "name": "MyPanel20",
+                                    "designerId": "a6202993-5329-493c-89ff-ccd5b1feb045",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.tab.Tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "name": "TabConfig5",
+                                            "designerId": "1ee49a6b-b780-4737-ae18-5b79dd48eea0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom"
+                    },
+                    "name": "MyToolbar5",
+                    "designerId": "15e1fa53-8476-4eb1-9987-ba5131390145",
+                    "cn": [
+                        {
+                            "type": "Ext.toolbar.Fill",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null
+                            },
+                            "name": "MyFill4",
+                            "designerId": "2d3418d0-9b54-4716-acb7-383570f3f8e2"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "icon": "./resources/ehm_images/Icons/16x16/Btn_Continue.gif",
+                                "layout|flex": null,
+                                "text": "연속"
+                            },
+                            "name": "MyButton26",
+                            "designerId": "85a8a10c-89dc-494b-acaf-9c67f6a8bd81"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "icon": "./resources/ehm_images/Icons/16x16/Btn_Save.png",
+                                "layout|flex": null,
+                                "text": "저장"
+                            },
+                            "name": "MyButton27",
+                            "designerId": "b670281f-09f6-4c2e-a0ae-3d2efef1006b"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "icon": "./resources/ehm_images/Icons/16x16/Btn_Delete.png",
+                                "layout|flex": null,
+                                "text": "취소"
+                            },
+                            "name": "MyButton28",
+                            "designerId": "891b7eb3-b4be-4dcf-a3e7-1b2a8e80e94b"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

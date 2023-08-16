@@ -1,0 +1,87 @@
+{
+  "children": [
+    {
+      "menuName": "기초정보",
+      "itemId": "a1",
+      "widgetName": "",
+      "iconCls": "",
+      "lev": "1",
+      "icon": "",
+      "expanded": true,
+      "children": [
+        {
+          "menuName": "로그인",
+          "widgetName": "",
+          "iconCls": "",
+          "icon": "",
+          "screenID": "IQR_11001",
+          "lev": "2",
+          "leaf": true
+        },
+        {
+          "menuName": "회원가입",
+          "widgetName": "",
+          "iconCls": "",
+          "screenID": "IQR_11002",
+          "icon": "",
+          "lev": "2",
+          "leaf": true
+        },
+        {
+          "menuName": "회원관리",
+          "widgetName": "",
+          "iconCls": "",
+          "screenID": "IQR_11002",
+          "icon": "",
+          "lev": "2",
+          "leaf": true
+        },
+        {
+          "menuName": "공공포탈 데이터",
+          "widgetName": "",
+          "iconCls": "",
+          "screenID": "IQR_11002",
+          "icon": "",
+          "lev": "2",
+          "leaf": true
+        },
+        {
+          "menuName": "대시보드",
+          "widgetName": "",
+          "iconCls": "",
+          "screenID": "IQR_11002",
+          "icon": "",
+          "lev": "2",
+          "leaf": true
+        },
+        {
+          "menuName": "샘플",
+          "iconCls": "",
+          "icon": "",
+          "lev": "2",
+          "expanded": true,
+          "children": [
+            {
+              "menuName": "신용카드",
+              "widgetName": "baseinfo_cardaccount_main",
+              "className": "",
+              "iconCls": "",
+              "screenID": "IQR_11004",
+              "lev": "4",
+              "leaf": true
+            },
+            {
+              "menuName": "게시판",
+              "widgetName": "board_main",
+              "className": "",
+              "iconCls": "",
+              "screenID": "IQR_11005",
+              "lev": "4",
+              "leaf": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

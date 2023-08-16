@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "viewsgeneralbook",
+        "designer|userClassName": "GeneralBookViewController"
+    },
+    "name": "MyPanel4ViewController",
+    "designerId": "d4ea26c8-2d9c-40d2-b1ec-9436855df699"
+}

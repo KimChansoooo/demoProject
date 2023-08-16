@@ -1,0 +1,60 @@
+.menupanel-uplus
+{
+    background-color: #4e4941;
+}
+
+.menupanel-uplus .x-grid-body
+{
+    background-color : #4e4941;
+}
+
+.menupanel-uplus .x-grid-item
+{
+    color : #FFF;
+    background-color:#4e4941;
+}
+
+.menupanel-uplus .x-grid-item-selected {
+    color: #FFF;
+    background-color: #716d67;
+}
+
+.menupanel-uplus .x-grid-item-focused {
+    color: #FFF;
+    background-color: #716d67;
+}
+
+.menupanel-uplus .x-grid-item-over {
+    color: #FFF;
+    background-color: #716d67;
+}
+
+/* 트리 아이콘 변경 */
+.menupanel-uplus .x-tree-icon-leaf {
+    background-image: url(../ehm_images/Icons/Menu/leaf.png);
+}
+.menupanel-uplus .x-tree-icon-parent {
+    background-image: url(../ehm_images/Icons/Menu/folder.png);
+}
+.menupanel-uplus .x-grid-tree-node-expanded .x-tree-icon-parent {
+    background-image: url(../ehm_images/Icons/Menu/folder-open.png);
+}
+.menupanel-uplus .x-accordion-hd .x-tool-img {
+    background-image: url(../ehm_images/Icons/Menu/tool-sprites.png);
+}
+
+
+
+/* uplus 메뉴 */
+.defaultpanel-uplus {
+    background-color: #4e4941;
+}
+
+/* uplus 퀵메뉴 */
+.defaultpanel-quick-uplus {
+    background-color: #72685a;
+}
+
+.quick-button-uplus {
+    background-color: #72685a;
+}

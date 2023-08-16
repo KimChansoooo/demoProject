@@ -1,0 +1,14 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css_ng7a7gwz",
+        "url": "./resources/css/Ehm.css"
+    },
+    "name": "css",
+    "designerId": "affa85cc-f1b6-442a-91fe-ab2ff92d778a"
+}

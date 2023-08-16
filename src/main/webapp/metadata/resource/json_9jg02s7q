@@ -1,0 +1,14 @@
+{
+    "type": "jsonresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "json_9jg02s7q",
+        "url": "./resources/json/menu.json"
+    },
+    "name": "json",
+    "designerId": "e96a7e98-5c03-48f7-bc5b-d9ebb4f7f806"
+}

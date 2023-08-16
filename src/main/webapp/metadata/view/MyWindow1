@@ -1,0 +1,166 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoShow": true,
+        "designer|userAlias": "popup_sample_test2",
+        "designer|userClassName": "MyWindow1",
+        "draggable": false,
+        "focusOnToFront": false,
+        "height": 500,
+        "modal": true,
+        "resizable": false,
+        "title": "My Window",
+        "toFrontOnShow": false,
+        "width": 500
+    },
+    "name": "MyWindow1",
+    "configAlternates": {
+        "resizable": "boolean"
+    },
+    "designerId": "1c913290-ecdc-49bf-a10b-86388b2027b0",
+    "viewControllerInstanceId": "287d3f8a-2d4e-453a-844d-968418279266",
+    "viewModelInstanceId": "fbd36d8a-6bc1-469f-b9d8-3ec50770ee7f",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "focusOnToFront": false,
+                "layout": "column",
+                "resizable": false,
+                "title": "My Form",
+                "toFrontOnShow": false
+            },
+            "name": "MyForm5",
+            "configAlternates": {
+                "resizable": "boolean"
+            },
+            "designerId": "af7f700c-c762-4988-811d-e591a4e6bfdb",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Date",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "format": "Y-m-d",
+                        "layout|columnWidth": 0.5,
+                        "name": "sdate",
+                        "reference": "sdate"
+                    },
+                    "name": "MyDateField3",
+                    "designerId": "f92c7208-ca64-4437-a49b-7b548e94fb55"
+                },
+                {
+                    "type": "Ext.form.field.Date",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "format": "Y-m-d",
+                        "layout|columnWidth": 0.5,
+                        "name": "edate",
+                        "reference": "edate"
+                    },
+                    "name": "MyDateField4",
+                    "designerId": "1535d8e0-c7e8-4f2c-9757-7fdca2611c8b"
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onWindowAfterLayout",
+                "implHandler": [
+                    "var year = '2015'; // 회계년도",
+                    "var thisForm = container.down('form');",
+                    "",
+                    "// 팝업생성",
+                    "var popup = Ext.ComponentQuery.query('common_popup_dateselect')[0];",
+                    "if(!popup) {",
+                    "    popup = Ext.widget('common_popup_dateselect');",
+                    "}",
+                    "",
+                    "popup.setAlwaysOnTop(true);",
+                    "",
+                    "// 팝업 위치 조정",
+                    "var sdate = thisForm.getForm().findField('sdate');",
+                    "popup.setPosition(sdate.getX(), sdate.getY()+sdate.getHeight()+20);",
+                    "",
+                    "",
+                    "// 회계년도와 현재년도가 다를시 disable 처리",
+                    "popup.setDisableButton(year);",
+                    "// 기간툴바 활성화여부 체크 : 일/주/월/분기/반기/전체",
+                    "popup.setHiddenToolbar(0,0,0,0,0,0,1);",
+                    "",
+                    "",
+                    "// 현재 입력되어져 있는 일자 (팝업으로 전달)",
+                    "var popupParams = {",
+                    "    sdate : thisForm.getForm().findField('sdate').getValue(),",
+                    "    edate : thisForm.getForm().findField('edate').getValue()",
+                    "};",
+                    "",
+                    "// callback : 팝업창에서 선택된 일자를 현재 form의 datefield에 set",
+                    "popup.setDateField(popupParams, function(sdate, edate){",
+                    "    thisForm.getForm().findField('sdate').setValue(sdate);",
+                    "    thisForm.getForm().findField('edate').setValue(edate);",
+                    "    //popup.hide();",
+                    "});",
+                    "",
+                    "// callback : 확인버튼을 선택하였을 시 처리될 function",
+                    "popup.dateSubmit(function(){",
+                    "    // 날짜선택 옆의 버튼의 클릭 이벤트 활성화",
+                    "    console.log('완료');",
+                    "});",
+                    "",
+                    ""
+                ],
+                "name": "afterlayout",
+                "scope": "me"
+            },
+            "name": "onWindowAfterLayout",
+            "designerId": "c2c572c8-67b0-48a5-b814-96867b010018"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onWindowClose",
+                "implHandler": [
+                    "console.log('close');",
+                    "var popup = Ext.ComponentQuery.query('common_popup_dateselect')[0];",
+                    "popup.close();"
+                ],
+                "name": "close",
+                "scope": "me"
+            },
+            "name": "onWindowClose",
+            "designerId": "8f6fd598-9834-4374-9276-733809129741"
+        }
+    ]
+}

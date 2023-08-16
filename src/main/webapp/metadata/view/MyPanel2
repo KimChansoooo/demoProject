@@ -1,0 +1,309 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "common_popup_sample_test",
+        "designer|userClassName": "MyPanel2",
+        "height": null,
+        "title": "My Panel",
+        "width": null
+    },
+    "name": "MyPanel2",
+    "designerId": "472d1182-9e32-47a2-8c85-470c4453f63d",
+    "viewControllerInstanceId": "ef8da412-d977-4584-a9a0-03eb9fe42767",
+    "viewModelInstanceId": "08f3757b-701f-44ff-977c-ece724f793ef",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "defaults": [
+                    "{",
+                    "margin:'5 5 5 5'",
+                    "}"
+                ],
+                "layout": "column",
+                "title": "My Form"
+            },
+            "name": "MyForm4",
+            "designerId": "7602a226-eda4-4d8e-a4a4-8a84ceb1dc6b",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Date",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "format": "Y-m-d",
+                        "name": "sdate",
+                        "reference": "sdate"
+                    },
+                    "name": "MyDateField1",
+                    "designerId": "8eb6c115-05f5-4eeb-9d1e-0aaff0f6f209"
+                },
+                {
+                    "type": "Ext.form.field.Date",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "format": "Y-m-d",
+                        "name": "edate",
+                        "reference": "edate"
+                    },
+                    "name": "MyDateField2",
+                    "designerId": "00caa425-fada-41bc-8f47-1f2ad8632949"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "날짜선택"
+                    },
+                    "name": "MyButton27",
+                    "designerId": "4641e5a7-836d-4a88-a0c7-322b79ca5f1f",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var year = '2015'; // 회계년도",
+                                    "",
+                                    "var panel = button.up('common_popup_sample_test');",
+                                    "var thisForm = panel.down('form');",
+                                    "",
+                                    "// 팝업생성",
+                                    "var popup = Ext.ComponentQuery.query('common_popup_dateselect')[0];",
+                                    "if(!popup) {",
+                                    "    popup = Ext.widget('common_popup_dateselect');",
+                                    "}",
+                                    "",
+                                    "",
+                                    "///popup.setPosition(button.getX()+button.getWidth()-popup.getWidth(),button.getY()+button.getHeight()+5);",
+                                    "",
+                                    "//var utilController = Ehm.app.getController('CommonUtilController');",
+                                    "//utilController.buttonClickWindowPosition(button, popup, 'l');",
+                                    "",
+                                    "// 회계년도와 현재년도가 다를시 disable 처리",
+                                    "popup.setDisableButton(year);",
+                                    "",
+                                    "popup.setHiddenToolbar(1,1,1,0,0,0); // 기간툴바 활성화여부 체크 : 일/주/월/분기/반기/전체",
+                                    "",
+                                    "",
+                                    "// 현재 입력되어져 있는 일자 (팝업으로 전달)",
+                                    "var popupParams = {",
+                                    "    sdate : thisForm.getForm().findField('sdate').getValue(),",
+                                    "    edate : thisForm.getForm().findField('edate').getValue()",
+                                    "};",
+                                    "",
+                                    "// 현재 입력되어져 있는 일자정보를 팝업에 셋팅 (히든값)",
+                                    "popup.setDateField(popupParams, function(sdate, edate){",
+                                    "    thisForm.getForm().findField('sdate').setValue(sdate);",
+                                    "    thisForm.getForm().findField('edate').setValue(edate);",
+                                    "    //popup.hide();",
+                                    "});",
+                                    "",
+                                    "// 확인버튼을 선택하였을 시 처리될 function",
+                                    "popup.dateSubmit(function(){",
+                                    "    // 날짜선택 옆의 버튼의 클릭 이벤트 활성화",
+                                    "    var button = panel.lookupReference('btn_submit');",
+                                    "    button.fireEvent('click');",
+                                    "    popup.close();",
+                                    "});"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "bd090df0-ab24-4945-950e-df9e716edd6a"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "reference": "btn_submit",
+                        "text": "확인"
+                    },
+                    "name": "MyButton26",
+                    "designerId": "42c28fc7-c00e-4046-821f-fee8f6f9cb45",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onSubmit",
+                                "implHandler": [
+                                    "var form = this.getView().down('form');",
+                                    "var value = form.getValues();",
+                                    "",
+                                    "Ext.MessageBox.show({",
+                                    "    title : '확인',",
+                                    "    msg : 'sdate : '+value.sdate+', edate : '+value.edate,",
+                                    "    buttons: Ext.MessageBox.OK",
+                                    "});",
+                                    ""
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "name": "onSubmit",
+                            "designerId": "8a2c4fc7-f483-4da5-8078-42f680006ad8"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "날짜선택2"
+                    },
+                    "name": "MyButton25",
+                    "designerId": "659bf862-be8f-44c4-ac57-67882758f4ed",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var year = '2015'; // 회계년도",
+                                    "",
+                                    "var panel = button.up('common_popup_sample_test');",
+                                    "var thisForm = panel.down('form');",
+                                    "",
+                                    "// 팝업생성",
+                                    "var popup = Ext.ComponentQuery.query('common_popup_dateselect')[0];",
+                                    "if(!popup) {",
+                                    "    popup = Ext.widget('common_popup_dateselect');",
+                                    "}",
+                                    "",
+                                    "//var utilController = Ehm.app.getController('CommonUtilController');",
+                                    "//utilController.buttonClickWindowPosition(button, popup, 'r');",
+                                    "",
+                                    "",
+                                    "",
+                                    "popup.setDisableButton(year); // 회계년도와 현재년도가 다를시 disable 처리",
+                                    "",
+                                    "popup.setHiddenToolbar(0,0,0,0,0); // 기간툴바 활성화여부 체크 : 일/주/월/분기/반기/전체",
+                                    "",
+                                    "",
+                                    "// 현재 입력되어져 있는 일자 (팝업으로 전달)",
+                                    "var popupParams = {",
+                                    "    sdate : thisForm.getForm().findField('sdate').getValue(),",
+                                    "    edate : thisForm.getForm().findField('edate').getValue()",
+                                    "};",
+                                    "",
+                                    "// 현재 입력되어져 있는 일자정보를 팝업에 셋팅 (히든값)",
+                                    "popup.setDateField(popupParams, function(sdate, edate){",
+                                    "    thisForm.getForm().findField('sdate').setValue(sdate);",
+                                    "    thisForm.getForm().findField('edate').setValue(edate);",
+                                    "    //popup.hide();",
+                                    "});",
+                                    "",
+                                    "// 확인버튼을 선택하였을 시 처리될 function",
+                                    "popup.dateSubmit(function(){",
+                                    "    // 날짜선택 옆의 버튼의 클릭 이벤트 활성화",
+                                    "    var button = panel.lookupReference('btn_submit');",
+                                    "    button.fireEvent('click');",
+                                    "    popup.close();",
+                                    "});"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "63102736-28fe-4e4f-bea8-02cd0d37b6c5"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "날짜선택3"
+                    },
+                    "name": "MyButton28",
+                    "designerId": "1444c263-903e-400f-990c-670421c4cc15",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var popup = Ext.ComponentQuery.query('popup_sample_test2')[0];",
+                                    "if(!popup) {",
+                                    "    popup = Ext.widget('popup_sample_test2');",
+                                    "}",
+                                    "",
+                                    "popup.show();"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "cd87f559-d139-436f-b711-c9a15e32afff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

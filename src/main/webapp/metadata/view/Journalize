@@ -1,0 +1,333 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "accounting_generalbook_popup_popgeneralbooksouth",
+        "designer|userClassName": "Journalize",
+        "height": 200,
+        "layout": "fit",
+        "title": null,
+        "width": null
+    },
+    "name": "MyPanel2",
+    "designerId": "71e086ca-7611-4a25-a32f-c2e36a8251f4",
+    "viewControllerInstanceId": "3510e336-690c-439a-ae02-a9e09d334c37",
+    "viewModelInstanceId": "3fc74827-a7ab-4ab4-b0cc-ae7b6ecc0d73",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 5,
+                "container|align": "stretch",
+                "layout": "hbox",
+                "style": null,
+                "title": null
+            },
+            "name": "MyPanel2",
+            "designerId": "a1b0c966-411d-45d3-af95-0bc6dfe0e23d",
+            "cn": [
+                {
+                    "type": "Ext.grid.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "baseCls": null,
+                        "bodyBorder": true,
+                        "bodyStyle": null,
+                        "cls": [
+                            "credit"
+                        ],
+                        "columnLines": true,
+                        "componentCls": null,
+                        "headerOverCls": null,
+                        "layout|flex": 1,
+                        "margin": "0 3 0 0",
+                        "padding": "0 0 0 0",
+                        "scrollable": false,
+                        "store": [
+                            "{test}"
+                        ],
+                        "style": [
+                            "{",
+                            "borderColor: '#FF0000',",
+                            "borderStyle: 'solid',",
+                            "borderWidth: '1px'",
+                            "}",
+                            ""
+                        ],
+                        "title": "차 변",
+                        "titleAlign": "center"
+                    },
+                    "name": "MyGridPanel3",
+                    "configAlternates": {
+                        "store": "binding",
+                        "scrollable": "boolean"
+                    },
+                    "designerId": "14f4b2bd-1800-4da5-907e-99db489bc81a",
+                    "cn": [
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "a",
+                                "text": "코드",
+                                "width": 60
+                            },
+                            "name": "MyColumn6",
+                            "designerId": "82ae51e9-5d0c-43f5-b944-e76d309415e5"
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "b",
+                                "text": "계정과목",
+                                "width": 85
+                            },
+                            "name": "MyColumn8",
+                            "designerId": "4d9d0ac9-d635-4a55-a1a4-fdfd0b0f8da4"
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "c",
+                                "text": "금액",
+                                "width": 80
+                            },
+                            "name": "MyColumn14",
+                            "designerId": "1eca62ae-e0e0-4b3d-b73f-a5a97c720a67"
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "d",
+                                "text": "장부",
+                                "width": 75
+                            },
+                            "name": "MyColumn9",
+                            "designerId": "e407230c-65f8-4f35-8a3c-e79f904594bf"
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "e",
+                                "text": "계정별적요",
+                                "width": 75
+                            },
+                            "name": "MyColumn10",
+                            "designerId": "81ddb548-6fc8-4f24-8f05-e3d646de6680"
+                        },
+                        {
+                            "type": "Ext.view.Table",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 65
+                            },
+                            "name": "MyTable3",
+                            "designerId": "6f23e4e1-d89b-4a7b-8c8a-0506075f93af"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "bottom",
+                                "title": "소 계 : 1,100,000",
+                                "width": 100
+                            },
+                            "name": "MyPanel10",
+                            "designerId": "d7877106-9bee-433b-b712-f2221a06d3c6"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.grid.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyBorder": true,
+                        "bodyStyle": null,
+                        "cls": [
+                            "debit"
+                        ],
+                        "columnLines": true,
+                        "layout|flex": 1,
+                        "margin": "0 0 0 3",
+                        "padding": null,
+                        "scrollable": false,
+                        "store": [
+                            "{test1}"
+                        ],
+                        "style": [
+                            "{",
+                            "borderColor: '#0000FF',",
+                            "borderStyle: 'solid',",
+                            "borderWidth: '1px'",
+                            "}",
+                            ""
+                        ],
+                        "title": "대 변",
+                        "titleAlign": "center",
+                        "width": 150
+                    },
+                    "name": "MyGridPanel5",
+                    "configAlternates": {
+                        "store": "binding",
+                        "scrollable": "boolean"
+                    },
+                    "designerId": "15b2067a-af48-4e0c-af0d-7c76a7661015",
+                    "cn": [
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "a",
+                                "text": "코드",
+                                "width": 60
+                            },
+                            "name": "MyColumn6",
+                            "designerId": "aaea1187-738c-44fb-9a2a-7194fc97a78b"
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "b",
+                                "text": "계정과목",
+                                "width": 85
+                            },
+                            "name": "MyColumn8",
+                            "designerId": "1c2346c4-8eaa-4a72-aa10-bac4c2a37697"
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "c",
+                                "text": "금액",
+                                "width": 80
+                            },
+                            "name": "MyColumn14",
+                            "designerId": "c0d00d90-26a9-450f-b5f8-b50d1410307d"
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "d",
+                                "text": "장부",
+                                "width": 75
+                            },
+                            "name": "MyColumn9",
+                            "designerId": "d0c61ac4-220c-43a6-9294-4b32217d5f81"
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "e",
+                                "text": "계정별적요",
+                                "width": 75
+                            },
+                            "name": "MyColumn10",
+                            "designerId": "0b632226-1922-4b9d-a6c8-e8cb6fd7140f"
+                        },
+                        {
+                            "type": "Ext.view.Table",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 65
+                            },
+                            "name": "MyTable3",
+                            "designerId": "72464a1b-9343-49bb-83b8-7057ff52b056"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "bottom",
+                                "title": "소 계 : 1,100,000",
+                                "width": 100
+                            },
+                            "name": "MyPanel11",
+                            "designerId": "8b318500-6c83-4ef7-8bbc-1a3185653f30"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

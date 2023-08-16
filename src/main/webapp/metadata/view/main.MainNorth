@@ -1,0 +1,447 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "main_north",
+        "designer|userClassName": "main.MainNorth",
+        "height": null,
+        "layout": "column",
+        "title": null,
+        "width": null
+    },
+    "name": "MyPanel1",
+    "designerId": "10743a34-91da-4f01-bc9e-8b3199240007",
+    "viewControllerInstanceId": "f910f397-4eb7-475a-868b-3ab54c2f6dbf",
+    "viewModelInstanceId": "8eac0b66-8bc3-4871-84a0-e5f7e60e9435",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": null,
+                "container|align": "stretch",
+                "height": 74,
+                "layout": "vbox",
+                "title": null,
+                "width": 200
+            },
+            "name": "MyForm",
+            "designerId": "285de2dc-772c-4ac1-8cb7-c9a6e1d79738",
+            "cn": [
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "padding": "30 25 15 25",
+                        "src": "./resources/ehm_images/Images/ENote_20140811.png"
+                    },
+                    "name": "MyImg",
+                    "designerId": "6c601bc7-9c7c-444c-a0a8-295f5bf6f781"
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Segmented",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "defaults": [
+                    "{border:0}"
+                ],
+                "height": 80,
+                "margin": "0 0 0 20",
+                "padding": "13 0 0 0",
+                "width": 600
+            },
+            "name": "MySegmentedButton",
+            "designerId": "0070310d-9946-4408-a389-8163b433301a",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "btn1",
+                        "itemId": "mybutton",
+                        "text": null
+                    },
+                    "name": "MyButton",
+                    "designerId": "b74b8ee8-46eb-456f-a030-9887058c5146",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var button = Ext.ComponentQuery.query('[itemId=a1]')[0];",
+                                    "        button.expand();"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "ae7a5cc1-1353-431f-9836-fbe2bde7c25e"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "btn2",
+                        "text": null
+                    },
+                    "name": "MyButton1",
+                    "designerId": "f2fcc44b-0284-4d89-aa42-de51dffd43ba",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var button = Ext.ComponentQuery.query('[itemId=a2]')[0];",
+                                    "        button.expand();"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "b3322cef-15a1-431b-948a-af3c7e20eef7"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "btn3",
+                        "text": null
+                    },
+                    "name": "MyButton2",
+                    "designerId": "14a77652-65ef-451c-86e3-cf805b860e52",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var button = Ext.ComponentQuery.query('[itemId=a3]')[0];",
+                                    "        button.expand();"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "af51b304-487c-418d-9b7e-36d1802eda77"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "btn4",
+                        "text": null
+                    },
+                    "name": "MyButton3",
+                    "designerId": "624e0fc2-c2a5-4b26-b010-cb9d5ca2e7a2",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var button = Ext.ComponentQuery.query('[itemId=a4]')[0];",
+                                    "        button.expand();"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "ef21f483-d423-46aa-84c4-8aa87f5dbb26"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "btn5",
+                        "text": null
+                    },
+                    "name": "MyButton4",
+                    "designerId": "af9869f4-0939-445d-aa2b-07fc74bf9fe3",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var button = Ext.ComponentQuery.query('[itemId=a5]')[0];",
+                                    "        button.expand();"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "92752b10-6db3-4995-8ab1-8a763a09bf8c"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "btn6",
+                        "text": null
+                    },
+                    "name": "MyButton5",
+                    "designerId": "ce870068-dff0-4714-9185-cadaca175531",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var button = Ext.ComponentQuery.query('[itemId=a6]')[0];",
+                                    "        button.expand();"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "64e8e30d-7172-4242-8f9f-96e48315933a"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "btn7",
+                        "text": null
+                    },
+                    "name": "MyButton6",
+                    "designerId": "3c25c8be-c0d6-4540-a03c-66fe447da8b9",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var button = Ext.ComponentQuery.query('[itemId=a7]')[0];",
+                                    "        button.expand();"
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "e64e84c2-09ff-4950-8d6d-8037d56e9f17"
+                        }
+                    ]
+                },
+                {
+                    "type": "viewcontrollereventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onSegmentedbuttonToggle",
+                        "implHandler": [
+                            "/*",
+                            "var menuPanel = Ext.ComponentQuery.query('panel[itemId=BasicInfo]');",
+                            "var itemId = button.itemId;",
+                            "if(itemId=='top2'){",
+                            "    menuPanel = Ext.ComponentQuery.query('panel[itemId=Accounting]');",
+                            "} else if(itemId == 'top3'){",
+                            "    menuPanel = Ext.ComponentQuery.query('panel[itemId=DepositWithraw]');",
+                            "} else if(itemId == 'top4'){",
+                            "    menuPanel = Ext.ComponentQuery.query('panel[itemId=Customer]');",
+                            "} else if(itemId == 'top5'){",
+                            "    menuPanel = Ext.ComponentQuery.query('panel[itemId=Etax]');",
+                            "} else if(itemId == 'top6'){",
+                            "    menuPanel = Ext.ComponentQuery.query('panel[itemId=Salary]');",
+                            "}",
+                            "menuPanel[0].expand();",
+                            "*/"
+                        ],
+                        "name": "toggle",
+                        "scope": "me"
+                    },
+                    "name": "onSegmentedbuttonToggle",
+                    "designerId": "10b3ff79-964a-457f-9eb1-59b83df5454a"
+                }
+            ]
+        },
+        {
+            "type": "Ext.toolbar.Spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 80,
+                "layout|columnWidth": 1
+            },
+            "name": "MySpacer",
+            "designerId": "dfbbe110-6dd5-4eb9-85b1-bcfa4a146dfe"
+        },
+        {
+            "type": "Ext.toolbar.Toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "defaultheader"
+                ],
+                "dock": "top",
+                "itemId": null,
+                "layout|columnWidth": null,
+                "style": null
+            },
+            "name": "MyToolbar",
+            "designerId": "511b8707-c1a2-4c1f-b17b-efc01f7624b7",
+            "cn": [
+                {
+                    "type": "Ext.toolbar.Fill",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null
+                    },
+                    "name": "MyFill",
+                    "designerId": "02cd4d42-fc9f-4621-ab73-6e08b812844f"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "정보수정"
+                    },
+                    "name": "MyButton7",
+                    "designerId": "25cb7cba-ecd9-47c3-90df-c21006756b6a"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "text": "로그아웃"
+                    },
+                    "name": "MyButton8",
+                    "designerId": "c094481e-2a31-4090-b095-870a07ecc6b7"
+                }
+            ]
+        }
+    ]
+}

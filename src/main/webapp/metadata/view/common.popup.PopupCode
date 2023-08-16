@@ -1,0 +1,164 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "closable": false,
+        "cls": [
+            "window-small-header"
+        ],
+        "designer|userAlias": "common_popup_code",
+        "designer|userClassName": "common.popup.PopupCode",
+        "headerOverCls": null,
+        "height": 300,
+        "layout": "fit",
+        "title": "aaa",
+        "titleCollapse": false,
+        "width": 200
+    },
+    "name": "MyWindow2",
+    "designerId": "e335de65-6dbe-4c35-a8ad-469b4c26fc81",
+    "viewControllerInstanceId": "dcffb73d-c6cf-4c13-8f44-aecb8b1f3bf0",
+    "viewModelInstanceId": "d1d71c32-147c-4768-a79f-801bd58c1203",
+    "cn": [
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "baseCls": null,
+                "store": "CommonCodeStore",
+                "title": null,
+                "width": null
+            },
+            "name": "MyGridPanel6",
+            "designerId": "e14d722a-4047-447d-993c-c63bbc08e0d7",
+            "cn": [
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "cd_code",
+                        "flex": 1,
+                        "text": "코드"
+                    },
+                    "name": "MyColumn28",
+                    "designerId": "45b327ad-d287-4de2-b899-ea0263aeea09",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "editor",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "MyTextField11",
+                            "designerId": "f23cc9d4-82d8-4623-adb8-8bdedffc814a"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "nm_code",
+                        "flex": 1,
+                        "text": "명칭"
+                    },
+                    "name": "MyColumn29",
+                    "designerId": "66c23a36-70f7-45f3-aeea-3d6adc44572a",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "editor",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "MyTextField12",
+                            "designerId": "38eec81d-3086-4267-9af9-4dc184659e76"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|pack": "center",
+                        "dock": "bottom"
+                    },
+                    "name": "MyToolbar8",
+                    "designerId": "00e1a2f9-8afd-4160-acb8-5a65b97d9ada",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "확인"
+                            },
+                            "name": "MyButton32",
+                            "designerId": "d3dbae9c-7ffb-4b1a-8adf-6ed5ee5daba0"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "취소"
+                            },
+                            "name": "MyButton33",
+                            "designerId": "d012bbdb-4452-4faa-a667-49a94c59a007",
+                            "cn": [
+                                {
+                                    "type": "fixedfunction",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|params": [
+                                            "button",
+                                            "e"
+                                        ],
+                                        "fn": "handler",
+                                        "implHandler": null
+                                    },
+                                    "name": "handler",
+                                    "designerId": "1795a52c-8cd2-4d1a-95cc-4dd7fcf29585"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

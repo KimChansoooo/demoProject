@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "main_west_menu",
+        "designer|userClassName": "main.MainWestMenuViewModel"
+    },
+    "designerId": "b69e905d-4007-4a2d-abbb-3a293f6b6f1d"
+}

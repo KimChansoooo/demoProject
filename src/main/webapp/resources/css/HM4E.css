@@ -1,0 +1,81 @@
+.btn1 {
+    background:transparent url(../Images/Icons/ToolBars/toolbar1Configuration.png) 0 0 no-repeat !important;  
+    padding: 5 0 0 5;
+}
+
+.btn1:hover{
+    background:transparent url(../Images/Icons/ToolBars/toolbar2GeneralBook_20150722.png) 0 0 no-repeat !important;       
+}
+
+.btn2 {
+    background:transparent url(../Images/Icons/ToolBars/toolbar2GeneralBook_20150722.png) 0 0 no-repeat !important;    
+}
+
+.btn2:hover{
+    background:transparent url(../Images/Icons/ToolBars/toolbar2GeneralBook_20150722.png) 0 0 no-repeat !important;       
+}
+
+.btn3 {
+    background:transparent url(../Images/Icons/ToolBars/toolbar4Fund_new.png) 0 0 no-repeat !important;    
+}
+
+.btn3:hover{
+    background:transparent url(../Images/Icons/ToolBars/toolbar2GeneralBook_20150722.png) 0 0 no-repeat !important;       
+}
+
+.btn4 {
+    background:transparent url(../Images/Icons/ToolBars/toolbar5Customer_new.png) 0 0 no-repeat !important;    
+}
+
+.btn4:hover{
+    background:transparent url(../Images/Icons/ToolBars/toolbar5Customer_new.png) 0 0 no-repeat !important;       
+}
+
+.btn5 {
+    background:transparent url(../Images/Icons/ToolBars/toolbar3Surtax_20151021.png) 0 0 no-repeat !important;    
+}
+
+.btn5:hover{
+    background:transparent url(../Images/Icons/ToolBars/toolbar2GeneralBook_20150722.png) 0 0 no-repeat !important;       
+}
+
+.btn6 {
+    background:transparent url(../Images/Icons/ToolBars/toolbar10Salary.png) 0 0 no-repeat !important;    
+}
+
+.btn6:hover{
+    background:transparent url(../Images/Icons/ToolBars/toolbar2GeneralBook_20150722.png) 0 0 no-repeat !important;       
+}
+
+.btn7 {
+    background:transparent url(../Images/Icons/ToolBars/toolbar11AddFunction.png) 0 0 no-repeat !important;    
+}
+
+.btn7:hover{
+    background:transparent url(../Images/Icons/ToolBars/toolbar2GeneralBook_20150722.png) 0 0 no-repeat !important;       
+}
+
+.leftMenu{
+    font-family:verdana, Gulim;
+    font-size:9px;
+}
+
+.btnTwitter{
+    background:transparent url(../Images/Images/LogonFormNew/ico_twitter2.png) 0 0 no-repeat !important;       
+}
+
+.btnFacebook{
+    background:transparent url(../Images/Images/LogonFormNew/ico_facebook2.png) 0 0 no-repeat !important;       
+}
+
+.btnBlog{
+    background:transparent url(../Images/Images/LogonFormNew/ico_blog2.png) 0 0 no-repeat !important;       
+}
+
+.btnCafe{
+    background:transparent url(../Images/Images/LogonFormNew/ico_cafe2.png) 0 0 no-repeat !important;       
+}
+
+.menu-item{   
+    text-align:center
+}

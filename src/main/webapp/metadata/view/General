@@ -1,0 +1,860 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyPadding": "0 10 0 10",
+        "container|align": "stretch",
+        "defaults": null,
+        "designer|userAlias": "accounting_generalbook_popup_popgeneralbooknorth",
+        "designer|userClassName": "General",
+        "height": null,
+        "itemId": "myform7",
+        "layout": "hbox",
+        "title": null,
+        "width": 800
+    },
+    "name": "MyForm7",
+    "designerId": "334f329d-b86a-4c0a-9daa-47d3afeb460f",
+    "viewControllerInstanceId": "4c6652fb-cd2a-41a6-bb77-f913604530db",
+    "viewModelInstanceId": "5f09d6ba-5bad-40bd-b614-25e2140915ac",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "defaults": [
+                    "{",
+                    "columnWidth:1,",
+                    "padding:'5 20 0 0',",
+                    "labelWidth: 55,",
+                    "labelSeparator:''",
+                    "}"
+                ],
+                "layout": "column",
+                "layout|flex": 1
+            },
+            "name": "MyContainer8",
+            "designerId": "fd2348ad-360b-48c5-baf6-b65d35bfc6df",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Date",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "emptyText": "2016-02-25",
+                        "fieldLabel": "거래일자",
+                        "format": "Y-m-d",
+                        "layout|columnWidth": 0.5,
+                        "value": 1456326000000
+                    },
+                    "name": "MyDateField5",
+                    "designerId": "5b21ad35-16db-40cc-b620-25aa23074720"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "거래처명",
+                        "layout|columnWidth": 0.6,
+                        "value": [
+                            "'아이퀘스트'"
+                        ]
+                    },
+                    "name": "MyTextField80",
+                    "designerId": "2c3a0662-d3b6-444e-a717-114dfdc72405",
+                    "cn": [
+                        {
+                            "type": "Ext.form.trigger.Trigger",
+                            "reference": {
+                                "name": "triggers",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": "x-form-search-trigger",
+                                "name": "mytrigger1"
+                            },
+                            "name": "MyTrigger1",
+                            "designerId": "f2ec02d6-9aaf-41ca-aab8-ebeabe5edb86"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.toolbar.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 35,
+                        "layout|columnWidth": 0.3
+                    },
+                    "name": "MySpacer5",
+                    "designerId": "2b944435-8d78-4034-8499-bae8b6ecc4d9"
+                },
+                {
+                    "type": "Ext.form.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|columnWidth": 0.16,
+                        "text": "구분",
+                        "width": 55
+                    },
+                    "name": "MyLabel3",
+                    "designerId": "793f0484-a5cc-4c19-b9fb-ad3df386824c"
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "fit",
+                        "layout|columnWidth": 0.8,
+                        "padding": 0,
+                        "title": "",
+                        "width": null
+                    },
+                    "name": "MyFieldSet10",
+                    "designerId": "58e4c5f4-56db-48af-8ec0-a7f247717f0f",
+                    "cn": [
+                        {
+                            "type": "Ext.form.RadioGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "defaults": [
+                                    "{",
+                                    "columnWidth: 0.33",
+                                    "}"
+                                ],
+                                "fieldLabel": "",
+                                "layout": "column",
+                                "width": 400
+                            },
+                            "name": "MyRadioGroup19",
+                            "designerId": "fb9ab0fa-3a0f-4f10-89e5-9b13294434e8",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "1.매출",
+                                        "checked": true,
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyRadio34",
+                                    "designerId": "ad95f87c-b76f-4b7e-b816-5f404c4aa6e4"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "2.매입",
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyRadio35",
+                                    "designerId": "9182ad66-949c-4460-a0c2-1da86b99978e"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "3.고정자산",
+                                        "fieldLabel": ""
+                                    },
+                                    "name": "MyRadio36",
+                                    "designerId": "a2f025c2-fee9-4ab7-9ff7-34084479939b"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "4.매출환입",
+                                        "fieldLabel": ""
+                                    },
+                                    "name": "MyRadio38",
+                                    "designerId": "f7b129d4-bd99-4120-b3c4-501767bc08ab"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "5.매입환출",
+                                        "fieldLabel": ""
+                                    },
+                                    "name": "MyRadio37",
+                                    "designerId": "ce53dd9f-7080-46c2-868e-65b721ba7273"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|columnWidth": 0.16,
+                        "padding": 0,
+                        "text": "과세유형",
+                        "width": 55
+                    },
+                    "name": "MyLabel5",
+                    "designerId": "2c398c56-3afc-4f6e-9703-e1e798fdbe18"
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "fit",
+                        "layout|columnWidth": 0.8,
+                        "padding": 0,
+                        "title": "",
+                        "width": null
+                    },
+                    "name": "MyFieldSet12",
+                    "designerId": "fe935eba-23a3-4860-817b-acd8d6fc81aa",
+                    "cn": [
+                        {
+                            "type": "Ext.form.RadioGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "defaults": [
+                                    "{",
+                                    "columnWidth: 0.25",
+                                    "}"
+                                ],
+                                "fieldLabel": "",
+                                "layout": "column",
+                                "width": 400
+                            },
+                            "name": "MyRadioGroup19",
+                            "designerId": "81d488c4-d383-47bd-b153-883d47bf2b9c",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "1.과세",
+                                        "checked": true,
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyRadio34",
+                                    "designerId": "2b507eee-c70d-4a7e-a309-9c69a13a50ee"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "2.영세",
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyRadio35",
+                                    "designerId": "1510dd39-c99c-4c81-b83f-8b77576c8b51"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "3.면세",
+                                        "fieldLabel": ""
+                                    },
+                                    "name": "MyRadio36",
+                                    "designerId": "36e0cd05-bf3e-40f0-b609-a2b0124cbc05"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "4.혼합",
+                                        "fieldLabel": ""
+                                    },
+                                    "name": "MyRadio38",
+                                    "designerId": "58d7c133-82b7-4675-a3bb-4d044077566f"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "baseCls": "number",
+                        "fieldLabel": "금액",
+                        "layout|columnWidth": 0.8,
+                        "style": null,
+                        "value": [
+                            "'1,000,000'"
+                        ]
+                    },
+                    "name": "MyTextField83",
+                    "designerId": "b24edb00-7fec-4d09-b181-0a84bace002e"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "baseCls": "number",
+                        "fieldLabel": "부가세",
+                        "layout|columnWidth": 0.8,
+                        "value": [
+                            "'100,000'"
+                        ]
+                    },
+                    "name": "MyTextField84",
+                    "designerId": "644c2974-f419-4d2c-858f-973b2444d09d"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "baseCls": "number",
+                        "fieldLabel": "합계",
+                        "layout|columnWidth": 0.8,
+                        "value": [
+                            "'1,100,000'"
+                        ]
+                    },
+                    "name": "MyTextField85",
+                    "designerId": "5c1f9ddd-3fb3-42ce-af42-7c9056e05168"
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyStyle": [
+                    "{",
+                    "'backgroundColor': '#BDBDBD'",
+                    "}"
+                ],
+                "height": null,
+                "margin": "5 0 0 5",
+                "style": null,
+                "title": null,
+                "width": 1
+            },
+            "name": "MyPanel12",
+            "designerId": "0f18e473-1b35-4c61-88a9-edc571b66ae0"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "defaults": [
+                    "{",
+                    "columnWidth:1,",
+                    "padding:'5 0 0 20',",
+                    "labelWidth: 55,",
+                    "labelSeparator:''",
+                    "}"
+                ],
+                "layout": "column",
+                "layout|flex": 1
+            },
+            "name": "MyContainer9",
+            "designerId": "94dcd320-5e36-46cb-810b-378838c686f4",
+            "cn": [
+                {
+                    "type": "Ext.toolbar.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|columnWidth": 0.6
+                    },
+                    "name": "MySpacer4",
+                    "designerId": "98d4cf96-3976-4c93-827a-413e9f2fb212"
+                },
+                {
+                    "type": "Ext.form.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 30,
+                        "layout|columnWidth": 0.4,
+                        "text": "전표번호 : 000027"
+                    },
+                    "name": "MyLabel2",
+                    "designerId": "0baf83a6-0edd-4e71-ab65-7c6e95a79428"
+                },
+                {
+                    "type": "Ext.form.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|columnWidth": 0.2,
+                        "text": "결제방법",
+                        "width": 55
+                    },
+                    "name": "MyLabel4",
+                    "designerId": "6863965f-fe7d-450e-a0ce-564462e8dcf1"
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "fit",
+                        "layout|columnWidth": 0.77,
+                        "padding": 0,
+                        "title": "",
+                        "width": null
+                    },
+                    "name": "MyFieldSet11",
+                    "designerId": "62ae822d-6585-455b-acff-39c0ca6c6234",
+                    "cn": [
+                        {
+                            "type": "Ext.form.RadioGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "defaults": [
+                                    "{",
+                                    "columnWidth: 0.33,",
+                                    "margin: '5 0 0 0'",
+                                    "}"
+                                ],
+                                "fieldLabel": "",
+                                "height": 55,
+                                "layout": "column",
+                                "width": 400
+                            },
+                            "name": "MyRadioGroup19",
+                            "designerId": "6298bb7e-adbe-4c33-87aa-0e097dc166bf",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "1.현금",
+                                        "checked": true,
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyRadio34",
+                                    "designerId": "45d19818-bda7-4715-aa8f-3654c13e0ceb"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "2.예금",
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyRadio35",
+                                    "designerId": "4ddf4240-8c19-482a-bb6d-e0e880e0ff60"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "3.외상",
+                                        "fieldLabel": ""
+                                    },
+                                    "name": "MyRadio36",
+                                    "designerId": "51367b92-fa23-4833-93a5-8dade9f84b60"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "4.어음",
+                                        "fieldLabel": ""
+                                    },
+                                    "name": "MyRadio38",
+                                    "designerId": "ff02298a-0f8e-4f10-8c60-ac8b9034a1d0"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "5.카드",
+                                        "fieldLabel": ""
+                                    },
+                                    "name": "MyRadio37",
+                                    "designerId": "c9c937ba-7177-42c6-b9bb-888dc4fb7a07"
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "6.혼합",
+                                        "fieldLabel": ""
+                                    },
+                                    "name": "MyRadio39",
+                                    "designerId": "d402e422-778d-4d0f-9fc0-4f9b9cbd9329"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "결재장부",
+                        "layout|columnWidth": 0.6,
+                        "value": [
+                            "외상장부"
+                        ]
+                    },
+                    "name": "MyTextField2",
+                    "designerId": "4fc66642-b5ee-4513-acc3-cfc8205fd809",
+                    "cn": [
+                        {
+                            "type": "Ext.form.trigger.Trigger",
+                            "reference": {
+                                "name": "triggers",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": "x-form-search-trigger",
+                                "name": "mytrigger1"
+                            },
+                            "name": "MyTrigger1",
+                            "designerId": "e288c5b2-3aa0-49ad-b153-983ae72d8e8f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "계정과목",
+                        "layout|columnWidth": 0.6,
+                        "value": [
+                            "상품"
+                        ]
+                    },
+                    "name": "MyTextField82",
+                    "designerId": "612ab5cf-e4d8-459c-9c54-172cfa66b41e",
+                    "cn": [
+                        {
+                            "type": "Ext.form.trigger.Trigger",
+                            "reference": {
+                                "name": "triggers",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": "x-form-search-trigger",
+                                "name": "mytrigger1"
+                            },
+                            "name": "MyTrigger1",
+                            "designerId": "0824fe64-8032-4151-9436-e98256a7b83b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "적요",
+                        "layout|columnWidth": 1
+                    },
+                    "name": "MyTextField86",
+                    "designerId": "95c44dba-7806-4ee0-b8c4-f73310242a2d"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "거래범주",
+                        "layout|columnWidth": 0.6,
+                        "value": [
+                            "복지항목"
+                        ]
+                    },
+                    "name": "MyTextField87",
+                    "designerId": "ddf542d6-3d89-44e5-a38b-07b75d6d9961",
+                    "cn": [
+                        {
+                            "type": "Ext.form.trigger.Trigger",
+                            "reference": {
+                                "name": "triggers",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": "x-form-search-trigger",
+                                "name": "mytrigger2"
+                            },
+                            "name": "MyTrigger2",
+                            "designerId": "901ea280-71ce-4cb9-8661-33435e0b5d8b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "비고",
+                        "layout|columnWidth": 1
+                    },
+                    "name": "MyTextField88",
+                    "designerId": "c8f0719f-b097-4186-9869-e7fa3ceec604"
+                }
+            ]
+        },
+        {
+            "type": "Ext.toolbar.Toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "bottom"
+            },
+            "name": "MyToolbar2",
+            "designerId": "176b5a32-5507-48b2-888f-78003a5bb451",
+            "cn": [
+                {
+                    "type": "Ext.toolbar.Fill",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null
+                    },
+                    "name": "MyFill2",
+                    "designerId": "18269896-0705-4fd4-a021-16f6e661ada2"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "enableToggle": true,
+                        "icon": "./resources/ehm_images/Icons/16x16/Btn_SlipDo.png",
+                        "layout|flex": null,
+                        "text": "분개",
+                        "width": 60
+                    },
+                    "name": "MyButton14",
+                    "designerId": "98cb1651-4eec-4de4-abe7-422ff85ca055",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onButtonToggle",
+                                "implHandler": [
+                                    "",
+                                    "var a = Ext.getCmp('journalize');",
+                                    "a.setHidden(!pressed);"
+                                ],
+                                "name": "toggle",
+                                "scope": "me"
+                            },
+                            "name": "onButtonToggle",
+                            "designerId": "2f83755e-be53-47aa-9681-2619bb4f6795"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "enableToggle": true,
+                        "icon": "./resources/ehm_images/Icons/16x16/Item.gif",
+                        "itemId": "mybutton15",
+                        "layout|flex": null,
+                        "text": "품목",
+                        "width": 60
+                    },
+                    "name": "MyButton15",
+                    "designerId": "0330b2ca-4005-4399-9bd5-9e223d6e108b",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onMybutton1Toggle",
+                                "implHandler": [
+                                    "var a = Ext.getCmp('goods');",
+                                    "    a.setHidden(!pressed);"
+                                ],
+                                "name": "toggle",
+                                "scope": "me"
+                            },
+                            "name": "onMybutton1Toggle",
+                            "designerId": "a1b1827a-39a2-42a8-baf2-c29c3fdb963c"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

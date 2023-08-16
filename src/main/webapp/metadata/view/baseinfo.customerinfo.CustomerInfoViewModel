@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "baseinfocustomerinfocustomerinfo",
+        "designer|userClassName": "baseinfo.customerinfo.CustomerInfoViewModel"
+    },
+    "designerId": "bd979349-5b7f-435e-a169-d400070e69bb"
+}

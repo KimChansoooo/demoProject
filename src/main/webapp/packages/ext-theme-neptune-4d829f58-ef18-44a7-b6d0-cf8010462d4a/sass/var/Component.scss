@@ -1,0 +1,57 @@
+$base-color: #1E3364 !default;
+$panel-color: #F2F6FA !default;
+$default-header-padding: 5px 7px 5px 7px !default;
+
+$font-size: 12px !default;
+$form-field-height: 21px;
+$font-family : 굴림, Arial;
+$fieldset-header-font-size : 12px !default;
+
+$panel-base-color : $base-color !default;
+$panel-body-background-color : $panel-color !default;
+$panel-header-padding : $default-header-padding !default;
+$panel-border-color: darken($panel-color,20) !default;
+
+$grid-column-header-color: #000 !default;
+$grid-column-header-font-weight: normal !default;
+$grid-header-padding : $default-header-padding !default;
+
+$accordion-header-color: $base-color !default;
+$accordion-header-background-color: lighten($base-color,60) !default;
+$accordion-header-over-background-color : lighten($accordion-header-background-color,5) !default;
+$accordion-background-color:$panel-color !default;
+$accordion-header-padding : 7px 7px 5px 7px !default;
+
+$toolbar-background-color: $panel-color !default;
+$toolbar-footer-background-color : $panel-color   !default;
+$toolbar-border-color: $panel-color !default;
+
+$button-small-font-weight: normal !default;
+
+$button-toolbar-color : #000 !default;
+$button-toolbar-border-color : darken($panel-color,10) !default;
+$button-toolbar-background-color : #FFF !default;
+
+$grid-row-cell-border-color: darken(#ededed,10) !default;
+
+$button-toolbar-background-color-over : darken($button-toolbar-background-color,5) !default;
+$button-toolbar-background-color-focus : $button-toolbar-background-color!default;
+$button-toolbar-background-color-pressed : darken($button-toolbar-background-color,20)!default;
+$button-toolbar-background-color-disabled : $button-toolbar-background-color !default;
+$button-toolbar-background-gradient: 'glossy-button' !default;
+
+
+
+$button-default-color: #000 !default;
+$button-default-base-color : #FFF !default;
+$button-default-border-color : darken($panel-color,10) !default;
+$button-default-base-color-over: darken($button-default-base-color,5) !default;
+
+
+
+
+
+$tab-padding: $default-header-padding !default;
+
+$window-header-padding:  $default-header-padding !default;
+$window-body-background-color : $panel-color !default;

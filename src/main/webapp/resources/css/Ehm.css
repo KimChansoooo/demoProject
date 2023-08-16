@@ -1,0 +1,107 @@
+.btn1 {
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar1.png) 0 0 no-repeat !important;  
+    padding: 5 0 0 5;
+}
+
+.btn1:hover{
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar1.png) 0 0 no-repeat !important;       
+}
+
+.btn2 {
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar2.png) 0 0 no-repeat !important;    
+}
+
+.btn2:hover{
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar2.png) 0 0 no-repeat !important;       
+}
+
+.btn3 {
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar3.png) 0 0 no-repeat !important;    
+}
+
+.btn3:hover{
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar3.png) 0 0 no-repeat !important;       
+}
+
+.btn4 {
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar4.png) 0 0 no-repeat !important;    
+}
+
+.btn4:hover{
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar4.png) 0 0 no-repeat !important;       
+}
+
+.btn5 {
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar5.png) 0 0 no-repeat !important;    
+}
+
+.btn5:hover{
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar5.png) 0 0 no-repeat !important;       
+}
+
+.btn6 {
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar6.png) 0 0 no-repeat !important;    
+}
+
+.btn6:hover{
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar6.png) 0 0 no-repeat !important;       
+}
+
+.btn7 {
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar7.png) 0 0 no-repeat !important;    
+}
+
+.btn7:hover{
+    background:transparent url(../ehm_images/Icons/ToolBars/toolbar7.png) 0 0 no-repeat !important;       
+}
+
+.leftMenu{
+    font-family:verdana, Gulim;
+    font-size:9px;
+}
+
+.btnTwitter{
+    background:transparent url(../ehm_images/Images/LogonFormNew/ico_twitter2.png) 0 0 no-repeat !important;       
+}
+
+.btnFacebook{
+    background:transparent url(../ehm_images/Images/LogonFormNew/ico_facebook2.png) 0 0 no-repeat !important;       
+}
+
+.btnBlog{
+    background:transparent url(../ehm_images/Images/LogonFormNew/ico_blog2.png) 0 0 no-repeat !important;       
+}
+
+.btnCafe{
+    background:transparent url(../ehm_images/Images/LogonFormNew/ico_cafe2.png) 0 0 no-repeat !important;       
+}
+
+.menu-item{   
+    text-align:center
+}
+
+.readOnly input{
+    background-color:#E5E5E5!important;
+}
+
+.color {
+    background-color:#E5E5E5!important;
+}
+
+.my-EmptyText
+    {
+        font-size: 10px !important;
+        background-color: Red !important;
+    }
+
+.align_right input {
+    text-align : right !important;
+}
+
+.align_center input {
+    text-align : center !important;
+}
+
+
+
+

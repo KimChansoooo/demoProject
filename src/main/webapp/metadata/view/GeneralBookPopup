@@ -1,0 +1,286 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoShow": true,
+        "designer|userAlias": "accounting_generalbook_popup_popgeneralbook",
+        "designer|userClassName": "GeneralBookPopup",
+        "height": null,
+        "resizable": false,
+        "title": "매입매출전표",
+        "width": 810
+    },
+    "name": "MyWindow1",
+    "configAlternates": {
+        "resizable": "boolean"
+    },
+    "designerId": "fc9f6af2-b8d2-49f1-ac88-5a85c32323bd",
+    "viewControllerInstanceId": "c88e6901-04b4-4ad2-bd22-05cd035117e5",
+    "viewModelInstanceId": "8ebfb9fc-1740-444e-9a2a-a47d2336e412",
+    "cn": [
+        {
+            "type": "Ext.toolbar.Toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "bottom"
+            },
+            "name": "MyToolbar15",
+            "designerId": "f20039be-f98e-4ed8-acb8-c9c53a5cd81e",
+            "cn": [
+                {
+                    "type": "Ext.form.CheckboxGroup",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "",
+                        "layout|flex": null,
+                        "width": 400
+                    },
+                    "name": "MyCheckboxGroup1",
+                    "designerId": "8b68e43f-6414-4dc8-bf56-1597a31d856e",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": " 세금계산서",
+                                "fieldLabel": null
+                            },
+                            "name": "MyCheckbox8",
+                            "designerId": "d92066a6-6299-429d-954d-7b21734d76a5"
+                        },
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "거래명세표",
+                                "fieldLabel": null
+                            },
+                            "name": "MyCheckbox9",
+                            "designerId": "ab62d7cc-6ac3-4c6a-838b-6d0db6d0c561"
+                        },
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "현금영수증",
+                                "fieldLabel": ""
+                            },
+                            "name": "MyCheckbox10",
+                            "designerId": "bf4fd5cc-eede-4399-82af-bf2efdae5374"
+                        },
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "신용카드",
+                                "checked": true,
+                                "fieldLabel": ""
+                            },
+                            "name": "MyCheckbox11",
+                            "designerId": "f44183e1-d552-495f-80df-059e6d013eac"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.toolbar.Fill",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null
+                    },
+                    "name": "MyFill12",
+                    "designerId": "9ef83e25-ae36-4a60-939a-a7e16ac25b4e"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "icon": "./resources/ehm_images/Icons/16x16/Btn_Continue.gif",
+                        "layout|flex": null,
+                        "text": "연속"
+                    },
+                    "name": "MyButton18",
+                    "designerId": "262e1a6f-fac4-4ee1-b206-5ea4fea260b6"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "icon": "./resources/ehm_images/Icons/16x16/Btn_Save.png",
+                        "layout|flex": null,
+                        "text": "저장"
+                    },
+                    "name": "MyButton19",
+                    "designerId": "a2b4fd4f-ad50-42f1-8c2d-f83186e9746a",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onSaveBtnClick",
+                                "implHandler": [
+                                    "",
+                                    "Ext.toast({",
+                                    "            html: '전표가 정상적으로 저장 되었습니다.',",
+                                    "            icon: './resources/ehm_images/Icons/information16.png',",
+                                    "    title: '알림',",
+                                    "            closable: false,",
+                                    "            align: 'br',",
+                                    "            slideInDuration: 400,",
+                                    "            minWidth: 300,",
+                                    "    Width: 300,",
+                                    "            modal:false",
+                                    "        });",
+                                    "this.getView().close();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "name": "onSaveBtnClick",
+                            "designerId": "c4bf93f2-34e9-4327-a321-ba7775098dd3"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "icon": "./resources/ehm_images/Icons/16x16/Btn_Cancel.png",
+                        "itemId": "mybutton20",
+                        "layout|flex": null,
+                        "text": "취소"
+                    },
+                    "name": "MyButton20",
+                    "designerId": "290d4f65-1966-4739-b923-4a9f5c8cabca",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onMybutton20Click",
+                                "implHandler": [
+                                    "this.getView().close();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "name": "onMybutton20Click",
+                            "designerId": "d16dcd5b-93fa-4355-b899-a1dcd3b36643"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyBorder": true,
+                "designer|displayName": "GeneralBookPopup",
+                "title": null
+            },
+            "name": "MyPanel3",
+            "designerId": "0894f23e-0c81-4e70-94db-89078e7c288a"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "general",
+            "designerId": "0e363bc2-8b3b-4384-85dd-6038e0d5006a",
+            "masterInstanceId": "334f329d-b86a-4c0a-9daa-47d3afeb460f"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "collapsed": false,
+                "header": false,
+                "height": 215,
+                "hidden": true,
+                "id": "journalize"
+            },
+            "name": "journalize1",
+            "designerId": "5ee3294f-cf3e-4478-9308-7d64e8ae4e5e",
+            "masterInstanceId": "71e086ca-7611-4a25-a32f-c2e36a8251f4"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "collapsed": false,
+                "hidden": true,
+                "id": "goods"
+            },
+            "name": "goods1",
+            "designerId": "9aaa7133-b22b-46d2-856c-80380ce66302",
+            "masterInstanceId": "78ecc587-0721-4ef9-bacd-84239be6b0d1"
+        }
+    ]
+}
