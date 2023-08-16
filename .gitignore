@@ -22,3 +22,20 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# sbteclipse plugin
+.target
+
+# Ext files
+src/main/webapp/ext
+
+# Sencha Build
+src/main/webapp/build
+
+src/main/webapp/.idea
+src/main/webapp/WEB-INF/classes
+src/main/webapp/WEB-INF/lib
+src/main/webapp/bootstrap.css
+src/main/webapp/bootstrap.js
+.idea/
+.history/
